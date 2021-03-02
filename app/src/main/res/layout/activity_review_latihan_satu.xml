@@ -1,0 +1,400 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activity.ReviewLatihanSatu"
+    android:background="@drawable/bgmaterisatu">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/tvSkor"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="REVIEW"
+            android:backgroundTint="#E15A47"
+            android:layout_marginTop="40dp"
+            android:layout_gravity="center"
+            android:textSize="22sp"
+            android:textStyle="bold"/>
+
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="582dp"
+            android:layout_gravity="center"
+            android:layout_marginStart="30dp"
+            android:layout_marginEnd="30dp"
+            android:backgroundTint="#FFC000"
+            app:cardCornerRadius="25dp"
+            app:cardElevation="18dp">
+
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:scrollbars="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:gravity="center"
+                    android:padding="6dp">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Pernyataan Benar"
+                        android:layout_gravity="center"
+                        android:textAlignment="center"
+                        android:layout_marginTop="4dp"
+                        android:maxLines="10"
+                        android:textColor="@android:color/holo_red_dark"
+                        android:textStyle="bold"
+                        android:textSize="14sp"/>
+
+                    <TextView
+                        android:id="@+id/tvSoal1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:text="1.	Cerita fantasi “Nina dan Korek Api Ajaib”  tidak bisa terjadi dalam dunia nyata karena tidak akan ada korek api yang bisa mengabulkan permintaan."
+                        android:justificationMode="inter_word"
+                        android:maxLines="10"
+                        android:layout_marginLeft="4dp"
+                        android:layout_marginRight="4dp"
+                        android:layout_gravity="right"
+                        android:textSize="14sp"/>
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:layout_marginTop="5dp"
+                        android:src="@drawable/garis"
+                        android:textSize="22sp"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Pernyataan Salah"
+                        android:layout_gravity="center"
+                        android:textAlignment="center"
+                        android:layout_marginTop="4dp"
+                        android:maxLines="10"
+                        android:textColor="@android:color/holo_red_dark"
+                        android:textStyle="bold"
+                        android:textSize="14sp"/>
+
+                    <TextView
+                        android:id="@+id/tvSoal2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:text="2.	Cerita fantasi “Misteri Saudara Kembar Sara” memiliki keunikan sikap pada tokohnya yang bernama Sara, ia bisa melihat bayangan masa depan."
+                        android:justificationMode="inter_word"
+                        android:maxLines="10"
+                        android:layout_marginLeft="4dp"
+                        android:layout_marginRight="4dp"
+                        android:layout_gravity="right"
+                        android:textSize="14sp"/>
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:layout_marginTop="5dp"
+                        android:src="@drawable/garis"
+                        android:textSize="22sp"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Pernyataan Benar"
+                        android:layout_gravity="center"
+                        android:textAlignment="center"
+                        android:layout_marginTop="4dp"
+                        android:maxLines="10"
+                        android:textColor="@android:color/holo_red_dark"
+                        android:textStyle="bold"
+                        android:textSize="14sp"/>
+
+                    <TextView
+                        android:id="@+id/tvSoal3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:text="3.	Cerita fantasi “Nina dan Korek Api Ajaib” tidak memiliki keunikan sikap pada tokohnya yang bernama Sara. "
+                        android:justificationMode="inter_word"
+                        android:maxLines="10"
+                        android:layout_marginLeft="4dp"
+                        android:layout_marginRight="4dp"
+                        android:layout_gravity="right"
+                        android:textSize="14sp"/>
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:layout_marginTop="5dp"
+                        android:src="@drawable/garis"
+                        android:textSize="22sp"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Pernyataan Benar"
+                        android:layout_gravity="center"
+                        android:textAlignment="center"
+                        android:layout_marginTop="4dp"
+                        android:maxLines="10"
+                        android:textColor="@android:color/holo_red_dark"
+                        android:textStyle="bold"
+                        android:textSize="14sp"/>
+
+                    <TextView
+                        android:id="@+id/tvSoal4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:text="4.	Cerita fantasi “Misteri Saudara Kembar Sara” memiliki rangkaian peristiwa yang diwali dari rumah Sara bocor dan mengungsi di rumah kakeknya. "
+                        android:justificationMode="inter_word"
+                        android:maxLines="10"
+                        android:layout_marginLeft="4dp"
+                        android:layout_marginRight="4dp"
+                        android:layout_gravity="right"
+                        android:textSize="14sp"/>
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:layout_marginTop="5dp"
+                        android:src="@drawable/garis"
+                        android:textSize="22sp"/>
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Pernyataan Salah"
+                        android:layout_gravity="center"
+                        android:textAlignment="center"
+                        android:layout_marginTop="4dp"
+                        android:maxLines="10"
+                        android:textColor="@android:color/holo_red_dark"
+                        android:textStyle="bold"
+                        android:textSize="14sp"/>
+
+                    <TextView
+                        android:id="@+id/tvSoal5"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:text="5.	Cerita fantasi “Nina dan Korek Api Ajaib” memiliki rangkaian peristiwa yang diakhiri dengan tangisan sedih oleh tokoh Nina."
+                        android:justificationMode="inter_word"
+                        android:maxLines="10"
+                        android:layout_marginLeft="4dp"
+                        android:layout_marginRight="4dp"
+                        android:layout_gravity="right"
+                        android:textSize="14sp"/>
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:layout_marginTop="5dp"
+                        android:src="@drawable/garis"
+                        android:textSize="22sp"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Pernyataan Salah"
+                        android:layout_gravity="center"
+                        android:textAlignment="center"
+                        android:layout_marginTop="4dp"
+                        android:maxLines="10"
+                        android:textColor="@android:color/holo_red_dark"
+                        android:textStyle="bold"
+                        android:textSize="14sp"/>
+
+                    <TextView
+                        android:id="@+id/tvSoal6"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:text="6.	Sebagian peristiwa dalam Cerita fantasi “Misteri Saudara Kembar Sara” bisa terjadi di dunia nyata seperti ketika Sara menerobos ruang masa lalu."
+                        android:justificationMode="inter_word"
+                        android:maxLines="10"
+                        android:layout_marginLeft="4dp"
+                        android:layout_marginRight="4dp"
+                        android:layout_gravity="right"
+                        android:textSize="14sp"/>
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:layout_marginTop="5dp"
+                        android:src="@drawable/garis"
+                        android:textSize="22sp"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Pernyataan Benar"
+                        android:layout_gravity="center"
+                        android:textAlignment="center"
+                        android:layout_marginTop="4dp"
+                        android:maxLines="10"
+                        android:textColor="@android:color/holo_red_dark"
+                        android:textStyle="bold"
+                        android:textSize="14sp"/>
+
+                    <TextView
+                        android:id="@+id/tvSoal7"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:text="7.	Cerita fantasi “Misteri Saudara Kembar Sara” tidak memiliki peristiwa aneh yakni Sara bisa menerobos ruang masa lalu melalui jam dinding. "
+                        android:justificationMode="inter_word"
+                        android:maxLines="10"
+                        android:layout_marginLeft="4dp"
+                        android:layout_marginRight="4dp"
+                        android:layout_gravity="right"
+                        android:textSize="14sp"/>
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:layout_marginTop="5dp"
+                        android:src="@drawable/garis"
+                        android:textSize="22sp"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Pernyataan Benar"
+                        android:layout_gravity="center"
+                        android:textAlignment="center"
+                        android:layout_marginTop="4dp"
+                        android:maxLines="10"
+                        android:textColor="@android:color/holo_red_dark"
+                        android:textStyle="bold"
+                        android:textSize="14sp"/>
+
+                    <TextView
+                        android:id="@+id/tvSoal8"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:text="8. Cerita fantasi “Nina dan Korek Api Ajaib” memiliki peristiwa aneh yakni Nina diberi seorang kakek sebuah korek api ajaib yang bisa mengabulkan permintaan. "
+                        android:justificationMode="inter_word"
+                        android:maxLines="10"
+                        android:layout_marginLeft="4dp"
+                        android:layout_marginRight="4dp"
+                        android:layout_gravity="right"
+                        android:textSize="14sp"/>
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:layout_marginTop="5dp"
+                        android:src="@drawable/garis"
+                        android:textSize="22sp"/>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Pernyataan Benar"
+                        android:layout_gravity="center"
+                        android:textAlignment="center"
+                        android:layout_marginTop="4dp"
+                        android:maxLines="10"
+                        android:textColor="@android:color/holo_red_dark"
+                        android:textStyle="bold"
+                        android:textSize="14sp"/>
+
+                    <TextView
+                        android:id="@+id/tvSoal9"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:text="9.	Peristiwa dalam Cerita fantasi “Misteri Saudara Kembar Sara” tidak bisa terjadi di dunia nyata karena tidak mungkin seseorang bisa menembus ruang masa lalu. "
+                        android:justificationMode="inter_word"
+                        android:maxLines="10"
+                        android:layout_marginLeft="4dp"
+                        android:layout_marginRight="4dp"
+                        android:layout_gravity="right"
+                        android:textSize="14sp"/>
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:layout_marginTop="5dp"
+                        android:src="@drawable/garis"
+                        android:textSize="22sp"/>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Pernyataan Salah"
+                        android:layout_gravity="center"
+                        android:textAlignment="center"
+                        android:layout_marginTop="4dp"
+                        android:maxLines="10"
+                        android:textColor="@android:color/holo_red_dark"
+                        android:textStyle="bold"
+                        android:textSize="14sp"/>
+
+                    <TextView
+                        android:id="@+id/tvSoal10"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:text="10. Peristiwa dalam Cerita fantasi “Nina dan Korek Api Ajaib” bisa terjadi di dunia nyata karena korek api ajaib ada di dunia nyata. "
+                        android:justificationMode="inter_word"
+                        android:maxLines="10"
+                        android:layout_marginLeft="4dp"
+                        android:layout_marginRight="4dp"
+                        android:layout_gravity="right"
+                        android:textSize="14sp"/>
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:layout_marginTop="5dp"
+                        android:src="@drawable/garis"
+                        android:textSize="22sp"/>
+
+                </LinearLayout>
+            </ScrollView>
+        </androidx.cardview.widget.CardView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:gravity="left"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <ImageView
+            android:id="@+id/ivHome"
+            android:layout_width="50dp"
+            android:layout_height="40dp"
+            android:layout_gravity="left"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="120dp"
+            android:layout_marginBottom="6dp"
+            android:src="@drawable/ic_home"/>
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

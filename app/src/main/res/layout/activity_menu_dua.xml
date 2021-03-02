@@ -1,0 +1,285 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activity.MenuDuaActivity"
+    android:background="@drawable/bgmaterisatu">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:layout_width="250dp"
+            android:layout_height="100dp"
+            android:layout_marginTop="25dp"
+            android:src="@drawable/menudua"/>
+
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:scrollbars="vertical"
+                android:layout_marginEnd="6dp"
+                android:layout_marginBottom="75dp">
+
+                <LinearLayout
+                    android:id="@+id/linearLayout"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="45dp"
+                        android:layout_marginTop="5dp"
+                        android:src="@drawable/judulll"/>
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="20dp"
+                        android:layout_marginStart="20dp"
+                        android:layout_marginEnd="20dp"
+                        android:src="@drawable/garis"/>
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="100dp"
+                        android:layout_marginStart="20dp"
+                        android:layout_marginEnd="20dp"
+                        android:layout_marginBottom="10dp"
+                        android:src="@drawable/textlagi"/>
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginRight="20dp"
+                        android:backgroundTint="#FAC090"
+                        android:layout_marginTop="4dp"
+                        app:cardCornerRadius="12dp"
+                        app:cardElevation="5dp">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical">
+
+
+                            <ImageView
+                                android:layout_width="match_parent"
+                                android:layout_height="75dp"
+                                android:layout_marginStart="16dp"
+                                android:src="@drawable/textnyaa"/>
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:orientation="horizontal"
+                                android:layout_gravity="center"
+                                android:gravity="center">
+
+
+                                <ImageView
+                                    android:id="@+id/ivPlay"
+                                    android:layout_width="75dp"
+                                    android:layout_height="60dp"
+                                    android:layout_marginStart="16dp"
+                                    android:src="@drawable/play"
+                                    android:onClick="musicplay"/>
+
+                                <ImageView
+                                    android:id="@+id/ivPause"
+                                    android:layout_width="75dp"
+                                    android:layout_height="60dp"
+                                    android:layout_marginStart="16dp"
+                                    android:src="@drawable/pause"
+                                    android:onClick="musicpause" />
+
+                                <ImageView
+                                    android:id="@+id/ivStop"
+                                    android:layout_width="75dp"
+                                    android:layout_height="60dp"
+                                    android:layout_marginStart="16dp"
+                                    android:src="@drawable/ic_stop"
+                                    android:onClick="musicstop"/>
+
+                            </LinearLayout>
+
+
+                            <ImageView
+                                android:layout_width="match_parent"
+                                android:layout_height="250dp"
+                                android:layout_marginBottom="10dp"
+                                android:src="@drawable/textnya"/>
+
+                        </LinearLayout>
+
+                    </androidx.cardview.widget.CardView>
+
+
+
+                    <ImageView
+                        android:layout_width="150dp"
+                        android:layout_height="40dp"
+                        android:layout_gravity="left"
+                        android:foregroundGravity="left"
+                        android:layout_marginStart="20dp"
+                        android:layout_marginEnd="20dp"
+                        android:layout_marginBottom="10dp"
+                        android:layout_marginTop="12dp"
+                        android:src="@drawable/textttt"/>
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginRight="20dp"
+                        android:backgroundTint="#C3D69B"
+                        android:layout_marginTop="4dp"
+                        app:cardCornerRadius="12dp"
+                        app:cardElevation="5dp">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_centerInParent="true"
+                            android:gravity="center"
+                            android:layout_marginStart="10dp"
+                            android:layout_marginEnd="10dp"
+                            android:layout_marginTop="20dp"
+                            android:orientation="vertical">
+
+                            <com.google.android.material.textfield.TextInputLayout
+                                android:id="@+id/textInputLayoutName"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginBottom="8dp"
+                                android:hint="Nama"
+                                app:helperText="(Masukkan nama lengkap)"
+                                app:errorEnabled="true">
+
+                                <com.google.android.material.textfield.TextInputEditText
+                                    android:id="@+id/editTextNama"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:inputType="textEmailAddress" />
+                            </com.google.android.material.textfield.TextInputLayout>
+
+                            <com.google.android.material.textfield.TextInputLayout
+                                android:id="@+id/textInputLayoutAbsen"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:hint="Absen"
+                                app:helperText="(Masukkan nomor absen xx)"
+                                app:errorEnabled="true">
+
+                                <com.google.android.material.textfield.TextInputEditText
+                                    android:id="@+id/editTextAbsen"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:inputType="textEmailAddress" />
+                            </com.google.android.material.textfield.TextInputLayout>
+
+
+                            <com.google.android.material.textfield.TextInputLayout
+                                android:id="@+id/textInputLayoutJawab"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:hint="Jawaban"
+                                app:helperText="(Tulis jawaban atau unggah file jawaban melalui tombol kirim dibawah ini)"
+                                app:errorEnabled="true">
+
+                                <com.google.android.material.textfield.TextInputEditText
+                                    android:id="@+id/editTextJawab"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:inputType="textEmailAddress|textMultiLine"
+                                    android:minLines="5"/>
+
+                            </com.google.android.material.textfield.TextInputLayout>
+                            <Button
+                                android:id="@+id/buttonAttach"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="5dp"
+                                android:layout_marginBottom="8dp"
+                                android:backgroundTint="#9BBB59"
+                                android:text="Pilih File">
+
+                            </Button>
+
+                            <TextView
+                                android:id="@+id/tvAttachment"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:drawableStart="@drawable/ic_attach"
+                                android:visibility="gone"
+                                android:layout_marginBottom="10dp"/>
+
+                        </LinearLayout>
+
+                    </androidx.cardview.widget.CardView>
+
+
+                    <Button
+                        android:id="@+id/btnKirim"
+                        android:layout_width="100dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:layout_gravity="right"
+                        android:layout_marginEnd="18dp"
+                        android:layout_marginBottom="8dp"
+                        android:backgroundTint="#9BBB59"
+                        android:text="Kirim">
+
+                    </Button>
+
+                </LinearLayout>
+            </ScrollView>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/linearLayout5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="4dp"
+        android:gravity="bottom|center"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <ImageView
+            android:id="@+id/ivHome"
+            android:layout_width="50dp"
+            android:layout_height="40dp"
+            android:layout_gravity="left"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="120dp"
+            android:src="@drawable/ic_home"></ImageView>
+
+        <ImageView
+            android:id="@+id/ivMateri"
+            android:layout_width="50dp"
+            android:layout_height="40dp"
+            android:layout_gravity="right"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginBottom="6dp"
+            android:src="@drawable/materi_ic"></ImageView>
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

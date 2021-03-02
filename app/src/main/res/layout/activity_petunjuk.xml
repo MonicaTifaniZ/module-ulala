@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activity.PetunjukActivity"
+    >
+
+    <ViewFlipper
+        android:id="@+id/viewFlipper"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+    <ImageView
+        android:id="@+id/ivMa1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/petunjuk1"/>
+
+    <ImageView
+        android:id="@+id/ivMa2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/petunjuk2"/>
+    <ImageView
+        android:id="@+id/ivMa3"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/petunjuk3"/>
+
+    </ViewFlipper>
+<!--    <ImageView-->
+<!--        android:id="@+id/imageView2"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="match_parent" />-->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="16dp"
+        android:gravity="bottom|center"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <ImageView
+            android:id="@+id/ivHome"
+            android:layout_width="50dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="120dp"
+            android:layout_marginBottom="6dp"
+            android:src="@drawable/ic_home"></ImageView>
+
+
+        <ImageView
+            android:id="@+id/ivNext"
+            android:layout_width="50dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:layout_marginBottom="6dp"
+            android:src="@drawable/ic_next"></ImageView>
+
+
+        <ImageView
+            android:id="@+id/ivPrev"
+            android:layout_width="50dp"
+            android:layout_height="40dp"
+            android:layout_gravity="right"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginBottom="6dp"
+            android:src="@drawable/ic_back">
+
+        </ImageView>
+
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
