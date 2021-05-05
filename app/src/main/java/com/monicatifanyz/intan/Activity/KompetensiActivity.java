@@ -14,7 +14,7 @@ import com.monicatifanyz.intan.R;
 
 public class KompetensiActivity extends Activity {
 
-    LinearLayout lnViewSatu, lnViewDua, lnViewTiga;
+    LinearLayout lnViewSatu, lnViewDua, lnViewTiga, lnViewEmpat;
     ImageView imageViewHome;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -25,6 +25,7 @@ public class KompetensiActivity extends Activity {
         lnViewSatu = findViewById(R.id.line1);
         lnViewDua = findViewById(R.id.line2);
         lnViewTiga = findViewById(R.id.line3);
+        lnViewEmpat = findViewById(R.id.line4);
 
         imageViewHome.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -52,6 +53,13 @@ public class KompetensiActivity extends Activity {
             }
         });
 
+        lnViewEmpat.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                menuEmpat(lnViewEmpat);
+            }
+        });
+
 
 
     }
@@ -72,7 +80,12 @@ public class KompetensiActivity extends Activity {
     }
 
     public void  menuTiga(View v){
-        Intent tiga = new Intent(this, TujuanPembelajaranActivity.class);
+        Intent tiga = new Intent(this, IndikatorActivity.class);
         startActivity(tiga);
+    }
+
+    public void  menuEmpat(View v){
+        Intent empat = new Intent(this, TujuanPembelajaranActivity.class);
+        startActivity(empat);
     }
 }

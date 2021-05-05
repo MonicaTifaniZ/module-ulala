@@ -44,9 +44,9 @@
 
                         <ImageView
                             android:id="@+id/ivMenu1"
-                            android:padding="12dp"
+                            android:padding="4dp"
                             android:layout_width="match_parent"
-                            android:layout_height="250dp"
+                            android:layout_height="240dp"
                             android:src="@drawable/menu1">
 
                         </ImageView>
@@ -86,7 +86,7 @@
 
                         <ImageView
                             android:id="@+id/ivMenu2"
-                            android:padding="12dp"
+                            android:paddingTop="2dp"
                             android:layout_width="match_parent"
                             android:layout_height="250dp"
                             android:src="@drawable/menu2">
@@ -128,7 +128,7 @@
 
                         <ImageView
                             android:id="@+id/ivMenu3"
-                            android:padding="12dp"
+                            android:padding="3dp"
                             android:layout_width="match_parent"
                             android:layout_height="250dp"
                             android:src="@drawable/menu3">
@@ -170,7 +170,7 @@
 
                         <ImageView
                             android:id="@+id/ivMenu4"
-                            android:padding="12dp"
+                            android:padding="3dp"
                             android:layout_width="match_parent"
                             android:layout_height="250dp"
                             android:src="@drawable/menu4">

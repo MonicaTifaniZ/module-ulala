@@ -57,21 +57,10 @@
                     </ImageView>
 
                         <LinearLayout
-                            android:layout_width="270dp"
+                            android:layout_width="290dp"
                             android:layout_height="wrap_content"
                             android:orientation="vertical">
 
-                            <TextView
-                                android:id="@+id/textSatu"
-                                android:layout_width="match_parent"
-                                android:layout_height="wrap_content"
-                                android:layout_marginLeft="20dp"
-                                android:layout_marginBottom="4dp"
-                                android:text="Teks 1"
-                                android:textAlignment="textStart"
-                                android:textColor="@android:color/black"
-                                android:textSize="14sp"
-                                android:textStyle="bold" />
 
                             <TextView
                                 android:id="@+id/textDua"
@@ -80,11 +69,10 @@
                                 android:layout_height="wrap_content"
                                 android:layout_gravity="start"
                                 android:layout_marginLeft="20dp"
-                                android:layout_below= "@id/textSatu"
-                                android:text="Bacalah teks cerita fantasi berikut!"
+                                android:text="Pada kegiatan kali ini siswa memahami jenis teks cerita fantasi."
                                 android:textColor="@android:color/black"
                                 android:textSize="12sp"
-                                android:textStyle="italic" />
+                                android:textStyle="normal" />
 
                             <ImageView
                                 android:id="@+id/ivCeritaSatu"
@@ -353,7 +341,7 @@
 
                 <ImageView
                     android:id="@+id/ivKotakInfo"
-                    android:layout_width="65dp"
+                    android:layout_width="70dp"
                     android:layout_height="250dp"
                     android:layout_marginTop="100dp"
                     android:src="@drawable/kotakinfo" />

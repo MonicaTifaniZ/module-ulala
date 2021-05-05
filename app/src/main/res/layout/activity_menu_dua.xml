@@ -37,7 +37,7 @@
 
                     <ImageView
                         android:layout_width="match_parent"
-                        android:layout_height="45dp"
+                        android:layout_height="70dp"
                         android:layout_marginTop="5dp"
                         android:src="@drawable/judulll"/>
 
@@ -48,13 +48,7 @@
                         android:layout_marginEnd="20dp"
                         android:src="@drawable/garis"/>
 
-                    <ImageView
-                        android:layout_width="match_parent"
-                        android:layout_height="100dp"
-                        android:layout_marginStart="20dp"
-                        android:layout_marginEnd="20dp"
-                        android:layout_marginBottom="10dp"
-                        android:src="@drawable/textlagi"/>
+
 
                     <androidx.cardview.widget.CardView
                         android:layout_width="match_parent"
@@ -72,11 +66,10 @@
                             android:layout_height="wrap_content"
                             android:orientation="vertical">
 
-
                             <ImageView
                                 android:layout_width="match_parent"
-                                android:layout_height="75dp"
-                                android:layout_marginStart="16dp"
+                                android:layout_height="250dp"
+                                android:paddingTop="1dp"
                                 android:src="@drawable/textnyaa"/>
 
                             <LinearLayout
@@ -85,7 +78,6 @@
                                 android:orientation="horizontal"
                                 android:layout_gravity="center"
                                 android:gravity="center">
-
 
                                 <ImageView
                                     android:id="@+id/ivPlay"
@@ -123,8 +115,6 @@
                         </LinearLayout>
 
                     </androidx.cardview.widget.CardView>
-
-
 
                     <ImageView
                         android:layout_width="150dp"
