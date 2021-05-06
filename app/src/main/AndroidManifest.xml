@@ -10,7 +10,8 @@
         android:roundIcon="@mipmap/iconn_foreground"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".Activity.IndikatorActivity"></activity>
+        <activity android:name=".Activity.KotakInfoDuaActivity"></activity>
+        <activity android:name=".Activity.IndikatorActivity" />
         <activity android:name=".Activity.MenuEmpat" />
         <activity android:name=".Activity.AwalEval" />
         <activity android:name=".Activity.KisahkuDua" />
@@ -66,10 +67,10 @@
             android:name="preloaded_fonts"
             android:resource="@array/preloaded_fonts" />
     </application>
-    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
     <uses-permission android:name="android.permission.READ_INTERNAL_STORAGE" />
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
-
     <uses-permission android:name="android.permission.INTERNET" />
+
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
 
 </manifest>

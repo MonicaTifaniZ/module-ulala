@@ -336,7 +336,7 @@
                             android:gravity="center"
                             android:layout_marginStart="5dp"
                             android:layout_marginEnd="5dp"
-                            android:text="Menjelaskan Ciri Kebahsaan Cerita Fantasi"
+                            android:text="Menjelaskan Ciri Kebahsaan\nCerita Fantasi"
                             android:textColor="@color/colorFontBlack"
                             android:textSize="18sp"
                             android:textStyle="bold" />
@@ -557,7 +557,7 @@
 
 
                         <ImageView
-                            android:id="@+id/kisahku"
+                            android:id="@+id/nina"
                             android:layout_width="match_parent"
                             android:layout_height="75dp"
                             android:layout_gravity="center"
@@ -566,21 +566,50 @@
                             android:src="@drawable/ninaa" />
 
 
-                        <ImageView
+                        <androidx.cardview.widget.CardView
                             android:layout_width="match_parent"
-                            android:layout_height="120dp"
+                            android:layout_height="wrap_content"
                             android:layout_gravity="center"
-                            android:layout_marginEnd="20dp"
-                            android:layout_marginStart="20dp"
+                            android:layout_marginLeft="20dp"
+                            android:layout_marginRight="20dp"
+                            android:backgroundTint="#FAC090"
                             android:layout_marginTop="4dp"
-                            android:src="@drawable/texty"/>
+                            app:cardCornerRadius="12dp"
+                            app:cardElevation="5dp">
 
-                        <ImageView
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginBottom="10dp"
+                                android:fontFamily="sans-serif"
+                                android:justificationMode="inter_word"
+                                android:padding="6dp"
+                                android:text="@string/hmm"
+                                android:textColor="@color/colorFontBlack"
+                                android:textSize="14sp"
+                                app:layout_constraintBottom_toTopOf="@+id/linearLayout2"
+                                app:layout_constraintEnd_toEndOf="parent"
+                                app:layout_constraintHorizontal_bias="0.308"
+                                app:layout_constraintStart_toStartOf="parent" />
+
+
+                        </androidx.cardview.widget.CardView>
+
+                        <TextView
                             android:layout_width="match_parent"
-                            android:layout_height="75dp"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="sans-serif"
+                            android:textColor="@color/colorFontBlack"
+                            android:text="@string/hn"
+                            android:textSize="14sp"
+                            android:justificationMode="inter_word"
+                            android:layout_marginBottom="10dp"
                             android:layout_marginStart="20dp"
                             android:layout_marginEnd="20dp"
-                            android:src="@drawable/texttt"/>
+                            app:layout_constraintBottom_toTopOf="@+id/linearLayout2"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintHorizontal_bias="0.308"
+                            app:layout_constraintStart_toStartOf="parent" />
 
                         <!--     Input Tigs Melengkapi       -->
 

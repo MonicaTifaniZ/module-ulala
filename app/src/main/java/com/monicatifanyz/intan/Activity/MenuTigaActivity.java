@@ -17,7 +17,7 @@ import com.monicatifanyz.intan.R;
 public class MenuTigaActivity extends Activity {
 
     ImageView  imageViewHome, imageViewMateri;
-    ImageView imageViewKotak, ceritaSatu, ceritaDua, ceritaTiga;
+    ImageView imageViewKotak, ceritaSatu, ceritaDua;
     Button btnSend, btnAttachment, btnSend2, btnAttachment2, btnSend3, btnAttachment3;
     Uri URI = null;
     private static final int PICK_FROM_GALLERY = 101;
@@ -35,8 +35,7 @@ public class MenuTigaActivity extends Activity {
 
         imageViewKotak = findViewById(R.id.ivKotakInfo);
         ceritaSatu = findViewById(R.id.ivCeritaSatu);
-        ceritaDua = findViewById(R.id.sara);
-        ceritaTiga = findViewById(R.id.kisahku);
+        ceritaDua = findViewById(R.id.nina);
         btnSend = findViewById(R.id.buttonKirim);
         btnAttachment = findViewById(R.id.buttonAttach);
 
@@ -130,12 +129,7 @@ public class MenuTigaActivity extends Activity {
                 ceritaDuaa(ceritaDua);
             }
         });
-        ceritaTiga.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                ceritaTigaa(ceritaTiga);
-            }
-        });
+
 
     }
     public void materi(View view){
@@ -157,13 +151,10 @@ public class MenuTigaActivity extends Activity {
         startActivity(menu);
     }
     public void ceritaDuaa(View view){
-        Intent menu = new Intent(this, SaraDua.class);
+        Intent menu = new Intent(this, NinaDua.class);
         startActivity(menu);
     }
-    public void ceritaTigaa(View view){
-        Intent menu = new Intent(this, KisahkuDua.class);
-        startActivity(menu);
-    }
+
 
     @Override
     protected void onActivityResult(int requestCode, int resultCode, Intent data) {

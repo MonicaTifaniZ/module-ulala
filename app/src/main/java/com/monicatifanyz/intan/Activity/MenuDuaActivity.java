@@ -21,7 +21,7 @@ import com.monicatifanyz.intan.R;
 public class MenuDuaActivity extends Activity {
     Button buttonKirim,  btnAttachment;
     TextInputEditText etNamaLengkap, etNoAbsen, etJawab;
-    ImageView  imageViewHome, imageViewMateri, ivAudio;
+    ImageView  imageViewKotak, imageViewHome, imageViewMateri, ivAudio;
     Uri URI = null;
     private static final int PICK_FROM_GALLERY = 101;
     TextView tvAttachment;
@@ -40,6 +40,7 @@ public class MenuDuaActivity extends Activity {
         etJawab = (TextInputEditText) findViewById(R.id.editTextJawab);
 
         imageViewHome = (ImageView) findViewById(R.id.ivHome);
+        imageViewKotak = findViewById(R.id.ivKotakInfo);
         imageViewMateri = (ImageView) findViewById(R.id.ivMateri);
 
 
@@ -53,6 +54,12 @@ public class MenuDuaActivity extends Activity {
             @Override
             public void onClick(View v) {
                 sendToEmail();
+            }
+        });
+        imageViewKotak.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                menuKotak(imageViewKotak);
             }
         });
         imageViewMateri.setOnClickListener(new View.OnClickListener() {
@@ -75,6 +82,11 @@ public class MenuDuaActivity extends Activity {
             }
         });
 
+    }
+
+    public void menuKotak(View view){
+        Intent menu = new Intent(this, KotakInfoDuaActivity.class);
+        startActivity(menu);
     }
 
 
