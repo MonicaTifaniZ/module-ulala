@@ -193,7 +193,10 @@
     <string name="duadua">Cerita fantasi <b>“Tiga Anak Bersaudara dan Raja Labu”</b> berisi beberapa kejadian menarik di dalamnya, urutkan kejadian cerita tersebut secara runtut dengan point-point</string>
     <string name="tigatiga"><b>Catatan : </b> Tulis hasil pekerjaanmu pada lembar kerja siswa!.</string>
     <string name="tigasatu"><b>Bacalah kotak materi terkait contoh ciri kebahasaan cerita fantasi,</b> kemudian jelaskan masing-masing ciri kebahasaan dengan menggunakan bahasamu sendiri!</string>
+<<<<<<< HEAD
     <string name="hmm">Setelah membaca cerita fantasi di atas, sebutkan kebahasaan yang muncul dalam cerita fantasi tersebut beserta bukti atau alasan yang tepat! Kerjakan dengan melihat contoh pada <b>kotak materi!</b></string>
     <string name="hn"><b>Catatan :</b> Tulis pekerjaanmu di buku tulis, kemudian foto dan unggah pada lembar kerja siswa!</string>
     <string name="wala">Mengurutkan isi teks cerita fantasi merupakan kegiatan menata isi mulai dari awal hingga akhir . Isi dalam cerita fantasi yang dimaksud adalah sebuah peristiwa-peristiwa yang terjadi dalam cerita fantasi.\n<b>Contoh : </b>Pada cerita yang sudah dengar menceritakan gadis tersesat dan berusahan mencari jalan keluar hingga ia menemukannya. Maka urutan isinya sebagai berikut\na.\tTersesat\nb.\tMencari jalan keluar\nc.\tMenemukan jalan keluar</string>
+=======
+>>>>>>> 39c6b49b6e3eb07661de5383785a5147ed727be2
 </resources>

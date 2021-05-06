@@ -336,7 +336,11 @@
                             android:gravity="center"
                             android:layout_marginStart="5dp"
                             android:layout_marginEnd="5dp"
+<<<<<<< HEAD
                             android:text="Menjelaskan Ciri Kebahsaan\nCerita Fantasi"
+=======
+                            android:text="Menjelaskan Ciri Kebahsaan Cerita Fantasi"
+>>>>>>> 39c6b49b6e3eb07661de5383785a5147ed727be2
                             android:textColor="@color/colorFontBlack"
                             android:textSize="18sp"
                             android:textStyle="bold" />
