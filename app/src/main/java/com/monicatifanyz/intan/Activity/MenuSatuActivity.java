@@ -31,13 +31,12 @@ public class MenuSatuActivity extends Activity implements View.OnClickListener{
         imageViewMateri = (ImageView) findViewById(R.id.ivMateri);
         buttonLatihanDua = (Button) findViewById(R.id.btnLatihan2);
         buttonnLatihanSatu = (Button) findViewById(R.id.btnLatihan1);
-        buttonKirim = (Button) findViewById(R.id.buttonGo);
-        ivSara = (ImageView) findViewById(R.id.sara);
-        ivNina = (ImageView) findViewById(R.id.nina);
+//        buttonKirim = (Button) findViewById(R.id.buttonGo);
+//        ivSara = (ImageView) findViewById(R.id.sara);
 
-        etNamaLengkap = (TextInputEditText) findViewById(R.id.editTextNama);
-        etNoAbsen = (TextInputEditText) findViewById(R.id.editTextAbsen);
-        etJawab = (TextInputEditText) findViewById(R.id.editTextJawab);
+//        etNamaLengkap = (TextInputEditText) findViewById(R.id.editTextNama);
+//        etNoAbsen = (TextInputEditText) findViewById(R.id.editTextAbsen);
+//        etJawab = (TextInputEditText) findViewById(R.id.editTextJawab);
 
         imageViewMateri.setOnClickListener(this);
         imageViewHome.setOnClickListener(this);
@@ -46,9 +45,8 @@ public class MenuSatuActivity extends Activity implements View.OnClickListener{
         imageViewCeritaDua.setOnClickListener(this);
         buttonnLatihanSatu.setOnClickListener(this);
         buttonLatihanDua.setOnClickListener(this);
-        buttonKirim.setOnClickListener(this);
-        ivSara.setOnClickListener(this);
-        ivNina.setOnClickListener(this);
+//        buttonKirim.setOnClickListener(this);
+//        ivSara.setOnClickListener(this);
 
 
     }
@@ -127,15 +125,9 @@ public class MenuSatuActivity extends Activity implements View.OnClickListener{
             ceritaSatu(imageViewCeritaSatu);
         } else if (v == buttonnLatihanSatu){
             latihanSatu(buttonnLatihanSatu);
-        } else if (v == buttonKirim){
-            sendToEmail();
         } else if (v == imageViewCeritaDua){
             ceritaDua(imageViewCeritaDua);
-        } else if (v == ivSara){
-            ceritaSatu(ivSara);
-        } else if (v == ivNina){
-            ceritaDua(ivNina);
-        } else if (v == buttonLatihanDua){
+        }else if (v == buttonLatihanDua){
             latihanDua(buttonLatihanDua);
         }
     }

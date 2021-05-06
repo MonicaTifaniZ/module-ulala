@@ -1,4 +1,3 @@
-<?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
@@ -18,20 +17,829 @@
             android:layout_height="553dp"
             android:layout_marginLeft="60dp"
             android:layout_marginTop="85dp"
-            android:layout_marginRight="20dp"
+            android:layout_marginRight="15dp"
             android:layout_marginBottom="270dp">
 
-            <TextView
-                android:id="@+id/tvText"
+            <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="@string/kotak_tiga"
-                android:textSize="14sp">
+                android:orientation="vertical">
 
-            </TextView>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/colorFontBlack"
+                        android:fontFamily="sans-serif"
+                        android:text="1. "
+                        android:textSize="14sp"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/colorFontBlack"
+                        android:fontFamily="sans-serif"
+                        android:text="@string/kotak_tiga"
+                        android:textSize="14sp"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_marginStart="10dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/colorFontBlack"
+                        android:fontFamily="sans-serif"
+                        android:text="a. "
+                        android:textSize="14sp"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/colorFontBlack"
+                        android:fontFamily="sans-serif"
+                        android:text="Orientasi merupakan penggambaran cerita sebagai perkenalan tempat, tokoh, waktu, peristiwa yang terjadi dan biasanya bagian ini terletak diawal cerita."
+                        android:textSize="14sp"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_marginStart="10dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/colorFontBlack"
+                        android:fontFamily="sans-serif"
+                        android:text="b. "
+                        android:textSize="14sp"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/colorFontBlack"
+                        android:fontFamily="sans-serif"
+                        android:text="Komplikasi merupakan penggambaran cerita sebagai tubuh utama menghadapi sebuah rintangan dalam mencapai tujuan atau cita cita. Pada bagian ini mulai bermunculan konflik atau masalah dan bagian ini biasanya terletak di tengah cerita. "
+                        android:textSize="14sp"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_marginStart="10dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/colorFontBlack"
+                        android:fontFamily="sans-serif"
+                        android:text="c. "
+                        android:textSize="14sp"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/colorFontBlack"
+                        android:fontFamily="sans-serif"
+                        android:text="Resolusi merupakan penggambaran penyelesaian dari masalah yang dihadapi oleh tokoh utama, dalam cerita pada bagian ini mempunyai dua kecenderungan yaitu mengkhiri sebuah cerita dengan kebahagiaan atau mengakhiri sebuah cerita dengan kesedihan selain itu juga ada cerita yang diakhiri dengan membiarkan pembaca atau mendengar menebak akhir cerita."
+                        android:textSize="14sp"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/colorFontBlack"
+                        android:fontFamily="sans-serif"
+                        android:text="2. "
+                        android:textSize="14sp"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/colorFontBlack"
+                        android:fontFamily="sans-serif"
+                        android:text="Cerita fantasi memiliki ciri kebahasaan sebagai berikut: "
+                        android:textSize="14sp"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_marginStart="10dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/colorFontBlack"
+                        android:fontFamily="sans-serif"
+                        android:text="a. "
+                        android:textSize="14sp"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/colorFontBlack"
+                        android:fontFamily="sans-serif"
+                        android:text="Penggunaan kata ganti dan nama orang sebagai sudut pandang penceritaan (aku, mereka, dia, Erza, Doni) "
+                        android:textSize="14sp"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_marginStart="10dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/colorFontBlack"
+                        android:fontFamily="sans-serif"
+                        android:text="b. "
+                        android:textSize="14sp"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/colorFontBlack"
+                        android:fontFamily="sans-serif"
+                        android:text="Penggunaan kata yang mencerap pancaindra untuk deskripsi latar (tempat, waktu, suasana) "
+                        android:textSize="14sp"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_marginStart="10dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/colorFontBlack"
+                        android:fontFamily="sans-serif"
+                        android:text="c. "
+                        android:textSize="14sp"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/colorFontBlack"
+                        android:fontFamily="sans-serif"
+                        android:text="Menggunakan pilihan kata dengan makna kias (bukan dari kata yang sebnarnya, seperti : tanggal tua, wajahnya bagaikan rembulan, cita-cita setinggi langit) dan makna khusus (kata-kata yang ruang lingkup dan cakupan maknanya lebih sempit atau disebut juga dengan hiponim, seperti mawar, melati, elang, melirik, dll)"
+                        android:textSize="14sp"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_marginStart="10dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/colorFontBlack"
+                        android:fontFamily="sans-serif"
+                        android:text="d. "
+                        android:textSize="14sp"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/colorFontBlack"
+                        android:fontFamily="sans-serif"
+                        android:text="@string/y"
+                        android:textSize="14sp"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_marginStart="10dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/colorFontBlack"
+                        android:fontFamily="sans-serif"
+                        android:text="e. "
+                        android:textSize="14sp"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/colorFontBlack"
+                        android:fontFamily="sans-serif"
+                        android:text="@string/x"
+                        android:textSize="14sp"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_marginStart="10dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/colorFontBlack"
+                        android:fontFamily="sans-serif"
+                        android:text="f. "
+                        android:textSize="14sp"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/colorFontBlack"
+                        android:fontFamily="sans-serif"
+                        android:text="@string/z"
+                        android:textSize="14sp"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/colorFontBlack"
+                        android:fontFamily="sans-serif"
+                        android:text="3. "
+                        android:textSize="14sp"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/colorFontBlack"
+                        android:fontFamily="sans-serif"
+                        android:text="Menjelaskan Struktur"
+                        android:textSize="14sp"/>
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/colorFontBlack"
+                    android:fontFamily="sans-serif"
+                    android:text="@string/v"
+                    android:layout_marginStart="10dp"
+                    android:textSize="14sp"/>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/colorFontBlack"
+                        android:fontFamily="sans-serif"
+                        android:text="4. "
+                        android:textSize="14sp"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/colorFontBlack"
+                        android:fontFamily="sans-serif"
+                        android:text="Menelaah Struktur"
+                        android:textSize="14sp"/>
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/colorFontBlack"
+                    android:fontFamily="sans-serif"
+                    android:text="Menelaah struktur teks cerita fantasi adalah mengupas tuntas orientasi, komplikasi, dan. resolusi teks cerita fantasi beserta dengan bukti/ alasan."
+                    android:textSize="14sp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/colorFontBlack"
+                    android:fontFamily="sans-serif"
+                    android:text="Contoh:\n"
+                    android:textStyle="bold"
+                    android:textSize="14sp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/colorFontBlack"
+                    android:fontFamily="sans-serif"
+                    android:text="Bacalah Teks Cerita Fantasi berikut"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:textSize="14sp"/>
+
+
+
+                <ImageView
+                    android:id="@+id/kisahku"
+                    android:layout_width="match_parent"
+                    android:layout_height="75dp"
+                    android:layout_gravity="center"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginEnd="20dp"
+                    android:src="@drawable/kisahku" />
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/colorFontBlack"
+                    android:fontFamily="sans-serif"
+                    android:text="@string/w"
+                    android:textSize="14sp"/>
+
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/colorFontBlack"
+                        android:fontFamily="sans-serif"
+                        android:text="5. "
+                        android:textSize="14sp"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/colorFontBlack"
+                        android:fontFamily="sans-serif"
+                        android:text="Menjelaskan  Ciri Kebahsaan "
+                        android:textSize="14sp"/>
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/colorFontBlack"
+                    android:fontFamily="sans-serif"
+                    android:layout_marginStart="10dp"
+                    android:text="@string/u"
+                    android:textSize="14sp"/>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_marginStart="10dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/colorFontBlack"
+                        android:fontFamily="sans-serif"
+                        android:text="a. "
+                        android:textSize="14sp"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/colorFontBlack"
+                        android:fontFamily="sans-serif"
+                        android:text="Kata ganti orang dalam cerita fantasi biasanya menggunakan kata ganti nama seperti Doni, Tara, Siska dll. Selain itu, bisa juga menggunakan kata ganti  aku, mereka, dia dll. "
+                        android:textSize="14sp"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_marginStart="10dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/colorFontBlack"
+                        android:fontFamily="sans-serif"
+                        android:text="b. "
+                        android:textSize="14sp"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/colorFontBlack"
+                        android:fontFamily="sans-serif"
+                        android:text="Kata yang mencerap pancaindra untuk deskripsi latar (tempat, waktu, suasana), contohnya seperti Dua rumah minimalis menyambut mataku dengan keindahan desainnya (latar tempat), Taman yang begitu indah dan luas ini pun terasa sunyi dan penuh kesedihan (latar suasana). Hujan turun kala siang itu, saat aku mau pergi mengembara (Latar waktu)."
+                        android:textSize="14sp"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_marginStart="10dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/colorFontBlack"
+                        android:fontFamily="sans-serif"
+                        android:text="c. "
+                        android:textSize="14sp"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/colorFontBlack"
+                        android:fontFamily="sans-serif"
+                        android:text="Pilihan kata dengan makna kias (makna yang tidak memiliki makna sebenarnya) dan makna khusus (makna kata yang istilahnya terbatas). Contoh kata kias “raihlah cita-cita setinggi langit” dan kata khusus “Melati itu sangat indah dan harum sekali”."
+                        android:textSize="14sp"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_marginStart="10dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/colorFontBlack"
+                        android:fontFamily="sans-serif"
+                        android:text="d. "
+                        android:textSize="14sp"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/colorFontBlack"
+                        android:fontFamily="sans-serif"
+                        android:text="Kata sambung penanda urutan waktu, contohnya : Selanjutnya, Kemudian, Lalu, Setelag dll. Sedangkan contoh kalimatnya : Setelah itu, saya akan membeli sebuah sepeda."
+                        android:textSize="14sp"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_marginStart="10dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/colorFontBlack"
+                        android:fontFamily="sans-serif"
+                        android:text="e. "
+                        android:textSize="14sp"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/colorFontBlack"
+                        android:fontFamily="sans-serif"
+                        android:text="Penggunaan kata/ungkapan keterkejutan yang berfungsi menggerakkan sebuah cerita (memulai masalah), contohnya : Tanpa diduga ia menghampiriku yang sedang duduk."
+                        android:textSize="14sp"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_marginStart="10dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/colorFontBlack"
+                        android:fontFamily="sans-serif"
+                        android:text="f. "
+                        android:textSize="14sp"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/colorFontBlack"
+                        android:fontFamily="sans-serif"
+                        android:text="Penggunaan dialog/kalimat langsung dalam cerita merupakan hal yang perlu diperhatikan bagi calon penulis/pengarang cerita. Dialog/kalimat langsung diawali dan diakhiri dengan tanda petik dua, kemudian tidak lupa dengan adanya tanda baca sesuai dengan jenis kalimatnya. Seperti kalimat tanya diberi tanda tanya, kalimat perintah diberi tanda seru. Semua tanda baca tersebut terletak di antara tanda petik dua. Contoh dialog/kalimat langsung : “Risa, tolong tutup pintunya!”teriak Nana. "
+                        android:textSize="14sp"/>
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/colorFontBlack"
+                        android:fontFamily="sans-serif"
+                        android:text="6. "
+                        android:textSize="14sp"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/colorFontBlack"
+                        android:fontFamily="sans-serif"
+                        android:text="Menelaah Ciri Kebahasaan"
+                        android:textSize="14sp"/>
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/colorFontBlack"
+                    android:fontFamily="sans-serif"
+                    android:text="Menelaah ciri kebahasaan teks cerita fantasi adalah mengupas tuntas penggunaan ciri kebahasaan teks certita fantasi beserta dengan bukti/ alasan."
+                    android:textSize="14sp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/colorFontBlack"
+                    android:fontFamily="sans-serif"
+                    android:text="Contoh:\n"
+                    android:textStyle="bold"
+                    android:textSize="14sp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/colorFontBlack"
+                    android:fontFamily="sans-serif"
+                    android:text="Bacalah Teks Cerita Fantasi berikut"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:textSize="14sp"/>
+
+                <ImageView
+                    android:id="@+id/kisahku2"
+                    android:layout_width="match_parent"
+                    android:layout_height="75dp"
+                    android:layout_gravity="center"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginEnd="20dp"
+                    android:src="@drawable/kisahku" />
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_marginStart="10dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/colorFontBlack"
+                        android:fontFamily="sans-serif"
+                        android:text="1. "
+                        android:textSize="14sp"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/colorFontBlack"
+                        android:fontFamily="sans-serif"
+                        android:text="Kata ganti orang dalam cerita fantasi tersebut menggunakan nama “ Dea” dan ia, buktinya dapat dilihat dari kalimat berikut “Dea adalah gadis lucu dan ceria yang tinggal di tengah kota”."
+                        android:textSize="14sp"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_marginStart="10dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/colorFontBlack"
+                        android:fontFamily="sans-serif"
+                        android:text="2. "
+                        android:textSize="14sp"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/colorFontBlack"
+                        android:fontFamily="sans-serif"
+                        android:text="Kata yang mencerap pancaindra untuk deskripsi latar (tempat, waktu, suasana)"
+                        android:textSize="14sp"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_marginStart="15dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/colorFontBlack"
+                        android:fontFamily="sans-serif"
+                        android:text="• "
+                        android:textSize="16sp"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/colorFontBlack"
+                        android:fontFamily="sans-serif"
+                        android:text="Latar tempat :  tengah kota (buktinya terletak pada kalimat satu paragraf 1, dll."
+                        android:textSize="14sp"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_marginStart="15dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/colorFontBlack"
+                        android:fontFamily="sans-serif"
+                        android:text="• "
+                        android:textSize="16sp"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/colorFontBlack"
+                        android:fontFamily="sans-serif"
+                        android:text="Latar waktunya adalah malam hari (buktinya terletak pada kalimat 5 paragraf 2)."
+                        android:textSize="14sp"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_marginStart="15dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/colorFontBlack"
+                        android:fontFamily="sans-serif"
+                        android:text="• "
+                        android:textSize="16sp"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/colorFontBlack"
+                        android:fontFamily="sans-serif"
+                        android:text="Latar suasananya adalah kecewa (buktinya terletak pada kalimat 3 paragraf 2), dll."
+                        android:textSize="14sp"/>
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_marginStart="10dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/colorFontBlack"
+                        android:fontFamily="sans-serif"
+                        android:text="3. "
+                        android:textSize="14sp"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/colorFontBlack"
+                        android:fontFamily="sans-serif"
+                        android:text="Pilihan kata dengan makna kias dalam teks tersebut adalah darah biru karena darah biru bukan berarti darahnya berwarna biru, tetapi bermakna keturunan bangsawan. Bukti teksnya bisa dilihat pada paragraf 1 kalimat ke 3
+Pilihan kata dengan makna khusus dalam teks tersebut adalah boneka kayu karena boneka merupakan kata khusus dari boneka dan mainan. Bukti teks dapat dilihat  pada paragraf 1 kalimat ke 7."
+                        android:textSize="14sp"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_marginStart="10dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/colorFontBlack"
+                        android:fontFamily="sans-serif"
+                        android:text="4. "
+                        android:textSize="14sp"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/colorFontBlack"
+                        android:fontFamily="sans-serif"
+                        android:text="Kata sambung penanda urutan waktu dalam teks tersebut adalah ketika (buktinya pada paragraf 2 kalimat ke 1), dll."
+                        android:textSize="14sp"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_marginStart="10dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/colorFontBlack"
+                        android:fontFamily="sans-serif"
+                        android:text="5. "
+                        android:textSize="14sp"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/colorFontBlack"
+                        android:fontFamily="sans-serif"
+                        android:text="Penggunaan kata/ungkapan keterkejutan dalam cerita tersebut adalah tiba-tiba, bukti bisa dilihat pada paragraf 2 kalimat ke 9."
+                        android:textSize="14sp"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_marginStart="10dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/colorFontBlack"
+                        android:fontFamily="sans-serif"
+                        android:text="6. "
+                        android:textSize="14sp"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/colorFontBlack"
+                        android:fontFamily="sans-serif"
+                        android:text="Penggunaan dialog/kalimat langsung dalam cerita tersebut terletak pada setiap dialognya seperti “Wah, ayah sudah pulang!” teriak anak itu."
+                        android:textSize="14sp"/>
+                </LinearLayout>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            </LinearLayout>
+
+
 
         </ScrollView>
-
 
     </LinearLayout>
 
@@ -51,7 +859,7 @@
             android:layout_marginLeft="50dp"
             android:layout_marginRight="30dp"
             android:layout_marginBottom="6dp"
-            android:src="@drawable/back_color"/>
+            android:src="@drawable/back_color"></ImageView>
     </LinearLayout>
 
 </RelativeLayout>

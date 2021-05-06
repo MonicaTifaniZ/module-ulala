@@ -19,7 +19,7 @@
         <activity android:name=".Activity.ReviewLatihanSatu" />
         <activity android:name=".Activity.ReviewEval" />
         <activity android:name=".Activity.CeritaMarmot" />
-        <activity android:name=".Activity.KotakInfoTigaActivity" />
+        <activity android:name=".Activity.KotakInfoEmpatActivity" />
         <activity android:name=".Activity.HasilEvaluasiActivity" />
         <activity android:name=".Activity.DataEvaluasiActivity" />
         <activity android:name=".Activity.EvaluasiActivity" />
@@ -31,7 +31,7 @@
         <activity android:name=".Activity.MenuDuaActivity" />
         <activity android:name=".Activity.LatihanDua" />
         <activity android:name=".Activity.CeritaNina" />
-        <activity android:name=".Activity.KotakInfoDuaActivity" />
+        <activity android:name=".Activity.KotakInfoTigaActivity" />
         <activity android:name=".Activity.CeritaSara" />
         <activity android:name=".Activity.KotakInfoSatuActivity" />
         <activity android:name=".Activity.MenuSatuActivity" />
@@ -61,6 +61,10 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
     </application>
     <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
     <uses-permission android:name="android.permission.READ_INTERNAL_STORAGE" />

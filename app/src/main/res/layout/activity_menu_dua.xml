@@ -21,11 +21,15 @@
             android:layout_marginTop="25dp"
             android:src="@drawable/menudua"/>
 
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
             <ScrollView
-                android:layout_width="match_parent"
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:scrollbars="vertical"
-                android:layout_marginEnd="6dp"
                 android:layout_marginBottom="75dp">
 
                 <LinearLayout
@@ -35,11 +39,16 @@
                     android:layout_marginBottom="10dp"
                     android:orientation="vertical">
 
-                    <ImageView
+                    <TextView
                         android:layout_width="match_parent"
-                        android:layout_height="70dp"
-                        android:layout_marginTop="5dp"
-                        android:src="@drawable/judulll"/>
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:fontFamily="sans-serif"
+                        android:gravity="center"
+                        android:text="Mengidentifikasi, Mengurutkan,\n dan Menceritakan Cerita\nFantasi"
+                        android:textColor="@color/colorFontBlack"
+                        android:textSize="18sp"
+                        android:textStyle="bold" />
 
                     <ImageView
                         android:layout_width="match_parent"
@@ -48,193 +57,394 @@
                         android:layout_marginEnd="20dp"
                         android:src="@drawable/garis"/>
 
-
-
-                    <androidx.cardview.widget.CardView
-                        android:layout_width="match_parent"
+                    <LinearLayout
+                        android:layout_width="300dp"
                         android:layout_height="wrap_content"
-                        android:layout_gravity="center"
-                        android:layout_marginLeft="20dp"
-                        android:layout_marginRight="20dp"
-                        android:backgroundTint="#FAC090"
-                        android:layout_marginTop="4dp"
-                        app:cardCornerRadius="12dp"
-                        app:cardElevation="5dp">
+                        android:orientation="vertical">
 
-                        <LinearLayout
+                        <TextView
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:orientation="vertical">
+                            android:fontFamily="sans-serif"
+                            android:textColor="@color/colorFontBlack"
+                            android:text="Kegiatan kali ini adalah mengidentifikasi isi, mengurutkan isi, dan menceritakan kembali isi teks cerita fantasi. Sebelum mengerjakan silahkan melihat contoh pada kotak materi!"
+                            android:textSize="14sp"
+                            android:justificationMode="inter_word"
+                            android:layout_marginStart="20dp"
+                            android:layout_marginEnd="20dp"/>
 
-                            <ImageView
-                                android:layout_width="match_parent"
-                                android:layout_height="250dp"
-                                android:paddingTop="1dp"
-                                android:src="@drawable/textnyaa"/>
+
+                        <androidx.cardview.widget.CardView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_marginLeft="20dp"
+                            android:layout_marginRight="20dp"
+                            android:backgroundTint="#FAC090"
+                            android:layout_marginTop="4dp"
+                            app:cardCornerRadius="8dp"
+                            app:cardElevation="3dp">
 
                             <LinearLayout
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
-                                android:orientation="horizontal"
-                                android:layout_gravity="center"
-                                android:gravity="center">
+                                android:orientation="vertical">
 
-                                <ImageView
-                                    android:id="@+id/ivPlay"
-                                    android:layout_width="75dp"
-                                    android:layout_height="60dp"
-                                    android:layout_marginStart="16dp"
-                                    android:src="@drawable/play"
-                                    android:onClick="musicplay"/>
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:orientation="horizontal">
 
-                                <ImageView
-                                    android:id="@+id/ivPause"
-                                    android:layout_width="75dp"
-                                    android:layout_height="60dp"
-                                    android:layout_marginStart="16dp"
-                                    android:src="@drawable/pause"
-                                    android:onClick="musicpause" />
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:fontFamily="sans-serif"
+                                        android:textColor="@color/colorFontBlack"
+                                        android:text="1. "
+                                        android:layout_marginStart="2dp"
+                                        android:textSize="14sp"/>
 
-                                <ImageView
-                                    android:id="@+id/ivStop"
-                                    android:layout_width="75dp"
-                                    android:layout_height="60dp"
-                                    android:layout_marginStart="16dp"
-                                    android:src="@drawable/ic_stop"
-                                    android:onClick="musicstop"/>
+                                    <TextView
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:fontFamily="sans-serif"
+                                        android:textColor="@color/colorFontBlack"
+                                        android:text="@string/duasatu"
+                                        android:textSize="14sp"
+                                        android:justificationMode="inter_word"
+                                        android:padding="5dp"/>
+
+                                </LinearLayout>
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:orientation="horizontal"
+                                    android:layout_gravity="center"
+                                    android:gravity="center">
+
+                                    <ImageView
+                                        android:id="@+id/ivPlay"
+                                        android:layout_width="50dp"
+                                        android:layout_height="40dp"
+                                        android:layout_marginStart="16dp"
+                                        android:src="@drawable/play"
+                                        android:onClick="musicplay"/>
+
+                                    <ImageView
+                                        android:id="@+id/ivPause"
+                                        android:layout_width="50dp"
+                                        android:layout_height="40dp"
+                                        android:src="@drawable/pause"
+                                        android:onClick="musicpause" />
+
+                                    <ImageView
+                                        android:id="@+id/ivStop"
+                                        android:layout_width="50dp"
+                                        android:layout_height="40dp"
+                                        android:layout_marginStart="16dp"
+                                        android:src="@drawable/ic_stop"
+                                        android:onClick="musicstop"/>
+
+                                </LinearLayout>
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:orientation="horizontal">
+
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:fontFamily="sans-serif"
+                                        android:textColor="@color/colorFontBlack"
+                                        android:text="2. "
+                                        android:layout_marginStart="2dp"
+                                        android:textSize="14sp"/>
+
+                                    <TextView
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:fontFamily="sans-serif"
+                                        android:textColor="@color/colorFontBlack"
+                                        android:text="Jawablah pertanyaan berikut ini!"
+                                        android:textSize="14sp"
+                                        android:justificationMode="inter_word"
+                                        android:padding="5dp"/>
+
+                                </LinearLayout>
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:orientation="horizontal"
+                                    android:layout_marginEnd="4dp"
+                                    android:layout_marginStart="10dp">
+
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:textColor="@color/colorFontBlack"
+                                        android:fontFamily="sans-serif"
+                                        android:text="a. "
+                                        android:textSize="14sp"/>
+
+                                    <TextView
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:textColor="@color/colorFontBlack"
+                                        android:fontFamily="sans-serif"
+                                        android:justificationMode="inter_word"
+                                        android:text="Dalam cerita fantasi terdapat pelaku yang disertai dengan karakternya, sebutkan siapa saja pelaku beserta karakter dalam cerita tersebut?"
+                                        android:textSize="14sp"/>
+                                </LinearLayout>
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:orientation="horizontal"
+                                    android:layout_marginEnd="4dp"
+                                    android:layout_marginStart="10dp">
+
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:textColor="@color/colorFontBlack"
+                                        android:fontFamily="sans-serif"
+                                        android:text="b. "
+                                        android:textSize="14sp"/>
+
+                                    <TextView
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:textColor="@color/colorFontBlack"
+                                        android:fontFamily="sans-serif"
+                                        android:justificationMode="inter_word"
+                                        android:text="Pesan dalam sebuah cerita terkandung secara tersirat dan tersurat, lalu bagaimana dengan pesan yang terkandung dalam cerita tersebut?"
+                                        android:textSize="14sp"/>
+                                </LinearLayout>
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:orientation="horizontal"
+                                    android:layout_marginEnd="4dp"
+                                    android:layout_marginStart="10dp">
+
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:textColor="@color/colorFontBlack"
+                                        android:fontFamily="sans-serif"
+                                        android:text="c. "
+                                        android:textSize="14sp"/>
+
+                                    <TextView
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:textColor="@color/colorFontBlack"
+                                        android:fontFamily="sans-serif"
+                                        android:justificationMode="inter_word"
+                                        android:text="Seorang penulis menggambarkan peristiwa dalam bentuk cerita dari berbagai sudut pandang.lalu sudut pandang apakah yang digunakan dalam cerita tersebut?"
+                                        android:textSize="14sp"/>
+                                </LinearLayout>
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:orientation="horizontal"
+                                    android:layout_marginEnd="4dp"
+                                    android:layout_marginStart="10dp">
+
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:textColor="@color/colorFontBlack"
+                                        android:fontFamily="sans-serif"
+                                        android:text="d. "
+                                        android:textSize="14sp"/>
+
+                                    <TextView
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:textColor="@color/colorFontBlack"
+                                        android:fontFamily="sans-serif"
+                                        android:justificationMode="inter_word"
+                                        android:text="@string/duadua"
+                                        android:textSize="14sp"/>
+                                </LinearLayout>
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:orientation="horizontal">
+
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:fontFamily="sans-serif"
+                                        android:textColor="@color/colorFontBlack"
+                                        android:text="3. "
+                                        android:layout_marginStart="2dp"
+                                        android:textSize="14sp"/>
+
+                                    <TextView
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:fontFamily="sans-serif"
+                                        android:textColor="@color/colorFontBlack"
+                                        android:text="Mulailah bercerita menggunakan bahasamu sendiri dengan cara merekam suara, kemudian unggah hasil rekaman pada lembar kerja siswa!"
+                                        android:textSize="14sp"
+                                        android:justificationMode="inter_word"
+                                        android:padding="5dp"/>
+
+                                </LinearLayout>
+
 
                             </LinearLayout>
 
+                        </androidx.cardview.widget.CardView>
 
-                            <ImageView
-                                android:layout_width="match_parent"
-                                android:layout_height="250dp"
-                                android:layout_marginBottom="10dp"
-                                android:src="@drawable/textnya"/>
+                        <ImageView
+                            android:layout_width="150dp"
+                            android:layout_height="40dp"
+                            android:layout_gravity="left"
+                            android:foregroundGravity="left"
+                            android:layout_marginStart="20dp"
+                            android:layout_marginEnd="20dp"
+                            android:layout_marginTop="12dp"
+                            android:src="@drawable/empad"/>
 
-                        </LinearLayout>
-
-                    </androidx.cardview.widget.CardView>
-
-                    <ImageView
-                        android:layout_width="150dp"
-                        android:layout_height="40dp"
-                        android:layout_gravity="left"
-                        android:foregroundGravity="left"
-                        android:layout_marginStart="20dp"
-                        android:layout_marginEnd="20dp"
-                        android:layout_marginBottom="10dp"
-                        android:layout_marginTop="12dp"
-                        android:src="@drawable/textttt"/>
-
-                    <androidx.cardview.widget.CardView
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:layout_gravity="center"
-                        android:layout_marginLeft="20dp"
-                        android:layout_marginRight="20dp"
-                        android:backgroundTint="#C3D69B"
-                        android:layout_marginTop="4dp"
-                        app:cardCornerRadius="12dp"
-                        app:cardElevation="5dp">
-
-                        <LinearLayout
+                        <androidx.cardview.widget.CardView
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:layout_centerInParent="true"
-                            android:gravity="center"
-                            android:layout_marginStart="10dp"
-                            android:layout_marginEnd="10dp"
-                            android:layout_marginTop="20dp"
-                            android:orientation="vertical">
+                            android:layout_gravity="center"
+                            android:layout_marginLeft="20dp"
+                            android:layout_marginRight="20dp"
+                            android:backgroundTint="#FA996E"
+                            android:layout_marginTop="4dp"
+                            app:cardCornerRadius="12dp"
+                            app:cardElevation="5dp">
 
-                            <com.google.android.material.textfield.TextInputLayout
-                                android:id="@+id/textInputLayoutName"
+                            <LinearLayout
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
-                                android:layout_marginBottom="8dp"
-                                android:hint="Nama"
-                                app:helperText="(Masukkan nama lengkap)"
-                                app:errorEnabled="true">
+                                android:layout_centerInParent="true"
+                                android:gravity="center"
+                                android:layout_marginStart="10dp"
+                                android:layout_marginEnd="10dp"
+                                android:layout_marginTop="20dp"
+                                android:orientation="vertical">
 
-                                <com.google.android.material.textfield.TextInputEditText
-                                    android:id="@+id/editTextNama"
+                                <com.google.android.material.textfield.TextInputLayout
+                                    android:id="@+id/textInputLayoutName"
                                     android:layout_width="match_parent"
                                     android:layout_height="wrap_content"
-                                    android:inputType="textEmailAddress" />
-                            </com.google.android.material.textfield.TextInputLayout>
+                                    android:layout_marginBottom="8dp"
+                                    android:hint="Nama"
+                                    app:helperText="(Masukkan nama lengkap)"
+                                    app:errorEnabled="true">
 
-                            <com.google.android.material.textfield.TextInputLayout
-                                android:id="@+id/textInputLayoutAbsen"
-                                android:layout_width="match_parent"
-                                android:layout_height="wrap_content"
-                                android:hint="Absen"
-                                app:helperText="(Masukkan nomor absen xx)"
-                                app:errorEnabled="true">
+                                    <com.google.android.material.textfield.TextInputEditText
+                                        android:id="@+id/editTextNama"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:inputType="textEmailAddress" />
+                                </com.google.android.material.textfield.TextInputLayout>
 
-                                <com.google.android.material.textfield.TextInputEditText
-                                    android:id="@+id/editTextAbsen"
+                                <com.google.android.material.textfield.TextInputLayout
+                                    android:id="@+id/textInputLayoutAbsen"
                                     android:layout_width="match_parent"
                                     android:layout_height="wrap_content"
-                                    android:inputType="textEmailAddress" />
-                            </com.google.android.material.textfield.TextInputLayout>
+                                    android:hint="Absen"
+                                    app:helperText="(Masukkan nomor absen xx)"
+                                    app:errorEnabled="true">
+
+                                    <com.google.android.material.textfield.TextInputEditText
+                                        android:id="@+id/editTextAbsen"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:inputType="textEmailAddress" />
+                                </com.google.android.material.textfield.TextInputLayout>
 
 
-                            <com.google.android.material.textfield.TextInputLayout
-                                android:id="@+id/textInputLayoutJawab"
-                                android:layout_width="match_parent"
-                                android:layout_height="wrap_content"
-                                android:hint="Jawaban"
-                                app:helperText="(Tulis jawaban atau unggah file jawaban melalui tombol kirim dibawah ini)"
-                                app:errorEnabled="true">
-
-                                <com.google.android.material.textfield.TextInputEditText
-                                    android:id="@+id/editTextJawab"
+                                <com.google.android.material.textfield.TextInputLayout
+                                    android:id="@+id/textInputLayoutJawab"
                                     android:layout_width="match_parent"
                                     android:layout_height="wrap_content"
-                                    android:inputType="textEmailAddress|textMultiLine"
-                                    android:minLines="5"/>
+                                    android:hint="Jawaban"
+                                    app:helperText="(Tulis jawaban atau unggah file jawaban melalui tombol kirim dibawah ini)"
+                                    app:errorEnabled="true">
 
-                            </com.google.android.material.textfield.TextInputLayout>
-                            <Button
-                                android:id="@+id/buttonAttach"
-                                android:layout_width="match_parent"
-                                android:layout_height="wrap_content"
-                                android:layout_marginTop="5dp"
-                                android:layout_marginBottom="8dp"
-                                android:backgroundTint="#9BBB59"
-                                android:text="Pilih File">
+                                    <com.google.android.material.textfield.TextInputEditText
+                                        android:id="@+id/editTextJawab"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:inputType="textEmailAddress|textMultiLine"
+                                        android:minLines="5"/>
 
-                            </Button>
+                                </com.google.android.material.textfield.TextInputLayout>
+                                <Button
+                                    android:id="@+id/buttonAttach"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginTop="5dp"
+                                    android:layout_marginBottom="8dp"
+                                    android:backgroundTint="#F75E3F"
+                                    android:text="Pilih File">
 
-                            <TextView
-                                android:id="@+id/tvAttachment"
-                                android:layout_width="match_parent"
-                                android:layout_height="wrap_content"
-                                android:drawableStart="@drawable/ic_attach"
-                                android:visibility="gone"
-                                android:layout_marginBottom="10dp"/>
+                                </Button>
 
-                        </LinearLayout>
+                                <TextView
+                                    android:id="@+id/tvAttachment"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:drawableStart="@drawable/ic_attach"
+                                    android:visibility="gone"
+                                    android:layout_marginBottom="10dp"/>
 
-                    </androidx.cardview.widget.CardView>
+                            </LinearLayout>
+
+                        </androidx.cardview.widget.CardView>
 
 
-                    <Button
-                        android:id="@+id/btnKirim"
-                        android:layout_width="100dp"
-                        android:layout_height="wrap_content"
-                        android:layout_marginTop="5dp"
-                        android:layout_gravity="right"
-                        android:layout_marginEnd="18dp"
-                        android:layout_marginBottom="8dp"
-                        android:backgroundTint="#9BBB59"
-                        android:text="Kirim">
+                        <Button
+                            android:id="@+id/btnKirim"
+                            android:layout_width="100dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="5dp"
+                            android:layout_gravity="right"
+                            android:layout_marginEnd="18dp"
+                            android:layout_marginBottom="8dp"
+                            android:backgroundTint="#F75E3F"
+                            android:text="Kirim">
 
-                    </Button>
+                        </Button>
+                    </LinearLayout>
+
+
 
                 </LinearLayout>
             </ScrollView>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_gravity="start"
+                android:gravity="start">
+
+                <ImageView
+                    android:id="@+id/ivKotakInfo"
+                    android:layout_width="70dp"
+                    android:layout_height="250dp"
+                    android:layout_marginTop="100dp"
+                    android:src="@drawable/kotakinfo" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
     </LinearLayout>
 
 

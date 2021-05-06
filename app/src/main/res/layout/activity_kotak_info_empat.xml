@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Activity.KotakInfoSatuActivity"
+    tools:context=".Activity.KotakInfoEmpatActivity"
     android:background="@drawable/kotak">
 
     <LinearLayout
@@ -26,10 +26,27 @@
                 android:layout_height="wrap_content"
                 android:orientation="vertical">
 
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/colorFontBlack"
+                    android:fontFamily="sans-serif"
+                    android:text="@string/kotak4"
+                    android:textSize="14sp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/colorFontBlack"
+                    android:fontFamily="sans-serif"
+                    android:text="Langkah merancang Cerita Fantasi"
+                    android:textSize="14sp"/>
+
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:orientation="horizontal">
+                    android:orientation="horizontal"
+                    android:layout_marginStart="10dp">
 
                     <TextView
                         android:layout_width="wrap_content"
@@ -44,14 +61,26 @@
                         android:layout_height="wrap_content"
                         android:textColor="@color/colorFontBlack"
                         android:fontFamily="sans-serif"
-                        android:text="@string/text"
+                        android:text="Menemukan Ide Penulisan"
                         android:textSize="14sp"/>
+
                 </LinearLayout>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/colorFontBlack"
+                    android:fontFamily="sans-serif"
+                    android:layout_marginStart="20dp"
+                    android:text="Menemukan ide dengan mengamati objek nyata lalu diberi imajinasi. Menemukan ide cerita fantasi dapat dilakukan dengan melakukan pengamatan terhadap objek/peristiwa di sekitar kita. "
+                    android:textSize="14sp"/>
+
 
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:orientation="horizontal">
+                    android:orientation="horizontal"
+                    android:layout_marginStart="10dp">
 
                     <TextView
                         android:layout_width="wrap_content"
@@ -66,14 +95,25 @@
                         android:layout_height="wrap_content"
                         android:textColor="@color/colorFontBlack"
                         android:fontFamily="sans-serif"
-                        android:text="@string/text1"
+                        android:text="Penggalian Ide Cerita Fantasi dari Membaca"
                         android:textSize="14sp"/>
+
                 </LinearLayout>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/colorFontBlack"
+                    android:fontFamily="sans-serif"
+                    android:layout_marginStart="20dp"
+                    android:text="Ide cerita fantasi juga dapat diperoleh melalui membaca buku pengetahuan/ buku ilmiah tentang ruang angkasa, hewan langka, biografi tokoh dan seterusnya. Selain itu ide cerita fantasi juga dapat diperoleh dari membaca dan pengalaman mitosmitos lokal/daerah."
+                    android:textSize="14sp"/>
 
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:orientation="horizontal">
+                    android:orientation="horizontal"
+                    android:layout_marginStart="10dp">
 
                     <TextView
                         android:layout_width="wrap_content"
@@ -88,54 +128,9 @@
                         android:layout_height="wrap_content"
                         android:textColor="@color/colorFontBlack"
                         android:fontFamily="sans-serif"
-                        android:text="@string/text2"
-                        android:textSize="14sp"/>
-                </LinearLayout>
-
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:orientation="horizontal"
-                    android:layout_marginStart="10dp">
-
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:textColor="@color/colorFontBlack"
-                        android:fontFamily="sans-serif"
-                        android:text="a. "
+                        android:text="Membuat Rangkaian Peristiwa"
                         android:textSize="14sp"/>
 
-                    <TextView
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:textColor="@color/colorFontBlack"
-                        android:fontFamily="sans-serif"
-                        android:text="@string/text3"
-                        android:textSize="14sp"/>
-                </LinearLayout>
-
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:orientation="horizontal"
-                    android:layout_marginStart="10dp">
-
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:textColor="@color/colorFontBlack"
-                        android:fontFamily="sans-serif"
-                        android:text="b. "
-                        android:textSize="14sp"/>
-
-                    <TextView
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:textColor="@color/colorFontBlack"
-                        android:fontFamily="sans-serif"
-                        android:text="@string/text4"
-                        android:textSize="14sp"/>
                 </LinearLayout>
 
                 <TextView
@@ -143,222 +138,8 @@
                     android:layout_height="wrap_content"
                     android:textColor="@color/colorFontBlack"
                     android:fontFamily="sans-serif"
-                    android:text="@string/text5"
-                    android:textSize="14sp"/>
-
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:orientation="horizontal"
-                    android:layout_marginStart="10dp">
-
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:textColor="@color/colorFontBlack"
-                        android:fontFamily="sans-serif"
-                        android:text="a. "
-                        android:textSize="14sp"/>
-
-                    <TextView
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:textColor="@color/colorFontBlack"
-                        android:fontFamily="sans-serif"
-                        android:text="@string/text6"
-                        android:textSize="14sp"/>
-                </LinearLayout>
-
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:orientation="horizontal"
-                    android:layout_marginStart="10dp">
-
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:textColor="@color/colorFontBlack"
-                        android:fontFamily="sans-serif"
-                        android:text="b. "
-                        android:textSize="14sp"/>
-
-                    <TextView
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:textColor="@color/colorFontBlack"
-                        android:fontFamily="sans-serif"
-                        android:text="@string/text7"
-                        android:textSize="14sp"/>
-                </LinearLayout>
-
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:orientation="horizontal">
-
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:textColor="@color/colorFontBlack"
-                        android:fontFamily="sans-serif"
-                        android:text="4. "
-                        android:textSize="14sp"/>
-
-                    <TextView
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:textColor="@color/colorFontBlack"
-                        android:fontFamily="sans-serif"
-                        android:text="@string/text8"
-                        android:textSize="14sp"/>
-                </LinearLayout>
-
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:orientation="horizontal"
-                    android:layout_marginStart="10dp">
-
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:textColor="@color/colorFontBlack"
-                        android:fontFamily="sans-serif"
-                        android:text="a. "
-                        android:textSize="14sp"/>
-
-                    <TextView
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:textColor="@color/colorFontBlack"
-                        android:fontFamily="sans-serif"
-                        android:text="@string/t9"
-                        android:textSize="14sp"/>
-                </LinearLayout>
-
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:orientation="horizontal"
-                    android:layout_marginStart="10dp">
-
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:textColor="@color/colorFontBlack"
-                        android:fontFamily="sans-serif"
-                        android:text="b. "
-                        android:textSize="14sp"/>
-
-                    <TextView
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:textColor="@color/colorFontBlack"
-                        android:fontFamily="sans-serif"
-                        android:text="@string/t10"
-                        android:textSize="14sp"/>
-                </LinearLayout>
-
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:orientation="horizontal"
-                    android:layout_marginStart="10dp">
-
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:textColor="@color/colorFontBlack"
-                        android:fontFamily="sans-serif"
-                        android:text="c. "
-                        android:textSize="14sp"/>
-
-                    <TextView
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:textColor="@color/colorFontBlack"
-                        android:fontFamily="sans-serif"
-                        android:text="@string/t11"
-                        android:textSize="14sp"/>
-                </LinearLayout>
-
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:orientation="horizontal"
-                    android:layout_marginStart="10dp">
-
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:textColor="@color/colorFontBlack"
-                        android:fontFamily="sans-serif"
-                        android:text="d. "
-                        android:textSize="14sp"/>
-
-                    <TextView
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:textColor="@color/colorFontBlack"
-                        android:fontFamily="sans-serif"
-                        android:text="@string/t12"
-                        android:textSize="14sp"/>
-                </LinearLayout>
-
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:orientation="horizontal"
-                    android:layout_marginStart="10dp">
-
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:textColor="@color/colorFontBlack"
-                        android:fontFamily="sans-serif"
-                        android:text="e. "
-                        android:textSize="14sp"/>
-
-                    <TextView
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:textColor="@color/colorFontBlack"
-                        android:fontFamily="sans-serif"
-                        android:text="@string/t13"
-                        android:textSize="14sp"/>
-                </LinearLayout>
-
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:orientation="horizontal"
-                    android:layout_marginStart="10dp">
-
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:textColor="@color/colorFontBlack"
-                        android:fontFamily="sans-serif"
-                        android:text="f. "
-                        android:textSize="14sp"/>
-
-                    <TextView
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:textColor="@color/colorFontBlack"
-                        android:fontFamily="sans-serif"
-                        android:text="@string/t14"
-                        android:textSize="14sp"/>
-                </LinearLayout>
-
-
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:textColor="@color/colorFontBlack"
-                    android:fontFamily="sans-serif"
-                    android:text="Contoh Mengidentifikasi Unsur\n"
+                    android:layout_marginStart="20dp"
+                    android:text="Dari ide yang sudah kamu temukan, buatlah rangkaian peristiwa sehingga tercipta cerita fantasi yang unik"
                     android:textSize="14sp"/>
 
                 <TextView
@@ -366,39 +147,146 @@
                     android:layout_height="wrap_content"
                     android:textColor="@color/colorFontBlack"
                     android:fontFamily="sans-serif"
-                    android:text="@string/t15"
-                    android:textSize="14sp"/>
-
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:textColor="@color/colorFontBlack"
-                    android:fontFamily="sans-serif"
-                    android:text="Contoh:\n"
+                    android:layout_marginStart="20dp"
+                    android:text="Contoh :"
                     android:textStyle="bold"
                     android:textSize="14sp"/>
 
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="20dp"
+                    android:fontFamily="sans-serif"
+                    android:text="@string/kotak41"
+                    android:textColor="@color/colorFontBlack"
+                    android:textSize="14sp" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_marginStart="20dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/colorFontBlack"
+                        android:fontFamily="sans-serif"
+                        android:text="1. "
+                        android:textSize="14sp"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/colorFontBlack"
+                        android:fontFamily="sans-serif"
+                        android:text="Tokoh mendapat hadiah dari kakeknya sebuah boneka kayu yang bisa berbicara"
+                        android:textSize="14sp"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_marginStart="20dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/colorFontBlack"
+                        android:fontFamily="sans-serif"
+                        android:text="2. "
+                        android:textSize="14sp"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/colorFontBlack"
+                        android:fontFamily="sans-serif"
+                        android:text="Tokoh beranjak dewasa dan mulai mengenal gadget"
+                        android:textSize="14sp"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_marginStart="20dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/colorFontBlack"
+                        android:fontFamily="sans-serif"
+                        android:text="3. "
+                        android:textSize="14sp"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/colorFontBlack"
+                        android:fontFamily="sans-serif"
+                        android:text="Boneka kayu mulai dilupakan karena keberadaan gadget"
+                        android:textSize="14sp"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_marginStart="20dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/colorFontBlack"
+                        android:fontFamily="sans-serif"
+                        android:text="4. "
+                        android:textSize="14sp"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/colorFontBlack"
+                        android:fontFamily="sans-serif"
+                        android:text="Boneka kayu pergi mecari kesenangan diluar hingga akhirnya bertemu pemulung "
+                        android:textSize="14sp"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_marginStart="20dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/colorFontBlack"
+                        android:fontFamily="sans-serif"
+                        android:text="5. "
+                        android:textSize="14sp"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/colorFontBlack"
+                        android:fontFamily="sans-serif"
+                        android:text="Tokoh mencari boneka kayunya dan akhirnya mengikhlaskan boneka kayunya dimiliki orang lain\n"
+                        android:textSize="14sp"/>
+
+                </LinearLayout>
+
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:textColor="@color/colorFontBlack"
                     android:fontFamily="sans-serif"
-                    android:text="Bacalah Teks Cerita Fantasi berikut"
-                    android:layout_gravity="center"
-                    android:gravity="center"
+                    android:text="@string/kotak42"
                     android:textSize="14sp"/>
-
-
-
-                <ImageView
-                    android:id="@+id/kisahku"
-                    android:layout_width="match_parent"
-                    android:layout_height="75dp"
-                    android:layout_gravity="center"
-                    android:layout_marginStart="20dp"
-                    android:layout_marginEnd="20dp"
-                    android:src="@drawable/kisahku" />
-
 
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -418,78 +306,10 @@
                         android:layout_height="wrap_content"
                         android:textColor="@color/colorFontBlack"
                         android:fontFamily="sans-serif"
-                        android:text="Mengidentifikasi Latar"
+                        android:text="Merencanakan"
                         android:textSize="14sp"/>
                 </LinearLayout>
 
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:orientation="horizontal"
-                    android:layout_marginStart="10dp">
-
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:textColor="@color/colorFontBlack"
-                        android:fontFamily="sans-serif"
-                        android:text="• "
-                        android:textSize="16sp"/>
-
-                    <TextView
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:textColor="@color/colorFontBlack"
-                        android:fontFamily="sans-serif"
-                        android:text="@string/t16"
-                        android:textSize="14sp"/>
-                </LinearLayout>
-
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:orientation="horizontal"
-                    android:layout_marginStart="10dp">
-
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:textColor="@color/colorFontBlack"
-                        android:fontFamily="sans-serif"
-                        android:text="• "
-                        android:textSize="16sp"/>
-
-                    <TextView
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:textColor="@color/colorFontBlack"
-                        android:fontFamily="sans-serif"
-                        android:text="@string/t17"
-                        android:textSize="14sp"/>
-                </LinearLayout>
-
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:orientation="horizontal"
-                    android:layout_marginStart="10dp">
-
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:textColor="@color/colorFontBlack"
-                        android:fontFamily="sans-serif"
-                        android:text="• "
-                        android:textSize="16sp"/>
-
-                    <TextView
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:textColor="@color/colorFontBlack"
-                        android:fontFamily="sans-serif"
-                        android:text="@string/t18"
-                        android:textSize="14sp"/>
-                </LinearLayout>
 
 
                 <LinearLayout
@@ -510,7 +330,7 @@
                         android:layout_height="wrap_content"
                         android:textColor="@color/colorFontBlack"
                         android:fontFamily="sans-serif"
-                        android:text="Mengidentifikasi Watak"
+                        android:text="Mengembangkan Produk"
                         android:textSize="14sp"/>
                 </LinearLayout>
 
@@ -519,9 +339,9 @@
                     android:layout_height="wrap_content"
                     android:textColor="@color/colorFontBlack"
                     android:fontFamily="sans-serif"
-                    android:layout_marginStart="10dp"
-                    android:text="Pada teks cerita fantasi tersebut menceritakan tokoh Dea yang memiliki watak bertanggung jawab karena mampu melaksanakan amanah kakeknya untuk memberikan boneka untuk orang yang sanggup merawatnya, buktinya terletak di akhir cerita. "
-                    android:textSize="14sp"/>
+                    android:layout_marginStart="16dp"
+                    android:textSize="14sp"
+                    android:text="Kembangkan tida bagian sehingga menjadi cerita fantasi yang menarik "/>
 
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -541,7 +361,7 @@
                         android:layout_height="wrap_content"
                         android:textColor="@color/colorFontBlack"
                         android:fontFamily="sans-serif"
-                        android:text="Mengidentifikati Sudut Pandang"
+                        android:text="Memberi Judul"
                         android:textSize="14sp"/>
                 </LinearLayout>
 
@@ -550,9 +370,9 @@
                     android:layout_height="wrap_content"
                     android:textColor="@color/colorFontBlack"
                     android:fontFamily="sans-serif"
-                    android:layout_marginStart="10dp"
-                    android:text="Pada teks cerita fantasi tersebut menggunakan kata nama “Dea”, maka sudut pandang yang digunakan cerita tersebut adalah sudut pandang orang ketiga serba tau. Karena si penulis menceritakan apa saja terkait tokoh utama dan seakan tahu benar tentang watak, pikiran, perasaan, kejadian, bahkan latar belakang yang mendalangi sebuah kejadian. "
-                    android:textSize="14sp"/>
+                    android:layout_marginStart="16dp"
+                    android:textSize="14sp"
+                    android:text="Berilah judul yang menari sehingga karyamu juga menjadi menarik\nContoh : Putri sang penakhluk awan dll."/>
 
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -572,7 +392,7 @@
                         android:layout_height="wrap_content"
                         android:textColor="@color/colorFontBlack"
                         android:fontFamily="sans-serif"
-                        android:text="Mengidentifikasi Amanat"
+                        android:text="Menelaah untuk merevisi"
                         android:textSize="14sp"/>
                 </LinearLayout>
 
@@ -581,9 +401,9 @@
                     android:layout_height="wrap_content"
                     android:textColor="@color/colorFontBlack"
                     android:fontFamily="sans-serif"
-                    android:layout_marginStart="10dp"
-                    android:text="Pada teks cerita fantasi tersebut memiliki amanatnya yakni jagalah amanah yang telah diberikan kepadamu dan laksanakanlah. Hal tersebut dapat dilihat pada kalimat pada paragraf terakhir yakni “Salah satu alasan Dea ...... yang menjaganya”. Kalimat tersebut menunjukkan bahwa Dea melaksanakan amanah yang dari kakeknya. "
-                    android:textSize="14sp"/>
+                    android:layout_marginStart="16dp"
+                    android:textSize="14sp"
+                    android:text="Menelaah hasil karya merupakan hal penting karena dengan melalui menelaah kita bisa tau kelayakan dari karya tersebut. Menelaah karya harus menggunakan panduan dari guru atau buku penunjang pembelajaran. Selain itu, karyamu memerlukan masukan dari teman atau gurumu. "/>
 
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -603,7 +423,7 @@
                         android:layout_height="wrap_content"
                         android:textColor="@color/colorFontBlack"
                         android:fontFamily="sans-serif"
-                        android:text="Mengidentifikasi Tema "
+                        android:text="Mempublikasi"
                         android:textSize="14sp"/>
                 </LinearLayout>
 
@@ -612,47 +432,9 @@
                     android:layout_height="wrap_content"
                     android:textColor="@color/colorFontBlack"
                     android:fontFamily="sans-serif"
-                    android:layout_marginStart="10dp"
+                    android:layout_marginStart="16dp"
                     android:textSize="14sp"
-                    android:text="Pada teks cerita fantasi tersebut  memiliki tema/ ide dasar teknologi menggeser kearifan lokal. Karena pada cerita tersebut menceritakan tokoh Dea yang melupakan boneka kayunya dan asik menikmati kecanggihan teknologi yakni gadget."/>
-
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:orientation="horizontal">
-
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:textColor="@color/colorFontBlack"
-                        android:fontFamily="sans-serif"
-                        android:text="6. "
-                        android:textSize="14sp"/>
-
-                    <TextView
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:textColor="@color/colorFontBlack"
-                        android:fontFamily="sans-serif"
-                        android:text="Mengidentifikasi Alur "
-                        android:textSize="14sp"/>
-                </LinearLayout>
-
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:textColor="@color/colorFontBlack"
-                    android:fontFamily="sans-serif"
-                    android:layout_marginStart="10dp"
-                    android:textSize="14sp"
-                    android:text="Pada teks cerita fantasi tersebut menggunakan alur maju karena menceritakan tokoh Dea dari kecil hingga remaja dengan bonekanya. "/>
-
-<!--                <ImageView-->
-<!--                    android:layout_width="match_parent"-->
-<!--                    android:layout_height="150dp"-->
-<!--                    android:layout_marginTop="4dp"-->
-<!--                    android:src="@drawable/kotakk"/>-->
-
+                    android:text="Publikasikan hasil karyamu pada sosial media atau pajang di majalah dinding. Hiasi dengan gambar dan kata-kata yang menarik, agar pembaca semakin tertarik untuk membaca. "/>
             </LinearLayout>
 
 
@@ -660,6 +442,7 @@
         </ScrollView>
 
     </LinearLayout>
+
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -677,7 +460,7 @@
             android:layout_marginLeft="50dp"
             android:layout_marginRight="30dp"
             android:layout_marginBottom="6dp"
-            android:src="@drawable/back_color"></ImageView>
+            android:src="@drawable/back_color"/>
     </LinearLayout>
 
 </RelativeLayout>
