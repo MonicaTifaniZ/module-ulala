@@ -39,7 +39,7 @@ public class KisahkuDua extends Activity implements View.OnClickListener {
     }
 
     public void prev(View view) {
-        Intent sebelum = new Intent(this, MenuTigaActivity.class);
+        Intent sebelum = new Intent(this, KotakInfoTigaActivity.class);
         startActivity(sebelum);
     }
 

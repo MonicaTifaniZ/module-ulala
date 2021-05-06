@@ -13,7 +13,7 @@ import com.monicatifanyz.intan.R;
 public class KotakInfoSatuActivity extends Activity {
 
     TextView textView;
-    ImageView back;
+    ImageView back, ceritaTiga;
 
     @SuppressLint("WrongConstant")
     @Override
@@ -25,6 +25,14 @@ public class KotakInfoSatuActivity extends Activity {
 
 
         textView = (TextView) findViewById(R.id.tvText);
+        ceritaTiga = (ImageView) findViewById(R.id.kisahku);
+
+        ceritaTiga.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                ceritaTigaa(ceritaTiga);
+            }
+        });
 
         back.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -40,5 +48,10 @@ public class KotakInfoSatuActivity extends Activity {
     public void prev(View view){
         Intent sebelum = new Intent(this, MenuSatuActivity.class);
         startActivity(sebelum);
+    }
+
+    public void ceritaTigaa(View view){
+        Intent menu = new Intent(this, CeritaKisahku.class);
+        startActivity(menu);
     }
 }

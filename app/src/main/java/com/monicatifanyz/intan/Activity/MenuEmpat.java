@@ -1,7 +1,5 @@
 package com.monicatifanyz.intan.Activity;
 
-import androidx.appcompat.app.AppCompatActivity;
-
 import android.app.Activity;
 import android.content.Intent;
 import android.net.Uri;
@@ -115,7 +113,7 @@ public class MenuEmpat extends Activity {
     }
 
     public void menuKotak(View view){
-        Intent menu = new Intent(this, KotakInfoTigaActivity.class);
+        Intent menu = new Intent(this, KotakInfoEmpatActivity.class);
         startActivity(menu);
     }
     public void ceritaSatuu(View view){

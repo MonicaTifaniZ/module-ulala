@@ -20,8 +20,7 @@
             android:layout_width="250dp"
             android:layout_height="100dp"
             android:layout_marginTop="25dp"
-            android:src="@drawable/empat"
-            android:contentDescription="TODO" />
+            android:src="@drawable/empat" />
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -39,39 +38,46 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginBottom="10dp"
-                    android:orientation="vertical"
-                    app:layout_constraintBottom_toTopOf="@+id/imageView">
+                    android:orientation="vertical">
 
-
-                    <ImageView
+                    <TextView
                         android:layout_width="match_parent"
-                        android:layout_height="50dp"
-                        android:layout_marginStart="20dp"
-                        android:layout_marginEnd="20dp"
-                        android:src="@drawable/empata"/>
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:fontFamily="sans-serif"
+                        android:gravity="center"
+                        android:layout_marginStart="8dp"
+                        android:layout_marginEnd="8dp"
+                        android:text="Mengidentifikasi Gagasan \nKreatif dan Merencanakan \nCerita Fantasi"
+                        android:textColor="@color/colorFontBlack"
+                        android:textSize="18sp"
+                        android:textStyle="bold" />
 
                     <ImageView
                         android:layout_width="match_parent"
                         android:layout_height="20dp"
                         android:layout_marginStart="20dp"
                         android:layout_marginEnd="20dp"
-                        android:src="@drawable/garis"
-                        android:contentDescription="TODO">
+                        android:src="@drawable/garis">
                     </ImageView>
 
                     <LinearLayout
-                        android:layout_width="250dp"
+                        android:layout_width="290dp"
                         android:layout_height="wrap_content"
                         android:orientation="vertical"
                         android:layout_gravity="center"
                         android:gravity="center">
 
-                        <ImageView
-                            android:layout_width="210dp"
-                            android:layout_height="60dp"
-                            android:layout_marginStart="20dp"
-                            android:layout_marginEnd="20dp"
-                            android:src="@drawable/empatb"/>
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="sans-serif"
+                            android:textColor="@color/colorFontBlack"
+                            android:text="Pada kegiatan kali adalah mengidentifikasi gagasan kreatif cerita fantasi dan merencanakan cerita fantasi. Sebelum mengerjakan baca contoh pada kotak materi! Kemudian baca kedua teks berikut!"
+                            android:textSize="14sp"
+                            android:justificationMode="inter_word"
+                            android:layout_marginStart="17dp"
+                            android:layout_marginEnd="17dp"/>
 
                         <LinearLayout
                             android:layout_width="match_parent"
@@ -83,43 +89,47 @@
                             android:layout_marginEnd="20dp">
 
                             <ImageView
-                                android:layout_width="80dp"
+                                android:layout_width="100dp"
                                 android:layout_height="65dp"
                                 android:layout_marginStart="20dp"
-                                android:layout_marginEnd="20dp"
                                 android:src="@drawable/ceritalien"/>
 
                             <ImageView
-                                android:layout_width="80dp"
+                                android:layout_width="100dp"
                                 android:layout_height="65dp"
-                                android:layout_marginStart="20dp"
                                 android:layout_marginEnd="20dp"
                                 android:src="@drawable/ceritamona"/>
 
                         </LinearLayout>
 
-                        <ImageView
+                        <androidx.cardview.widget.CardView
                             android:layout_width="match_parent"
-                            android:layout_height="60dp"
+                            android:layout_height="wrap_content"
                             android:layout_gravity="center"
-                            android:layout_marginTop="2dp"
-                            android:layout_marginStart="20dp"
-                            android:layout_marginEnd="20dp"
-                            android:src="@drawable/empatc" />
+                            android:layout_marginLeft="20dp"
+                            android:layout_marginRight="20dp"
+                            android:backgroundTint="#FAC090"
+                            android:layout_marginTop="4dp"
+                            app:cardCornerRadius="12dp"
+                            app:cardElevation="5dp">
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginBottom="10dp"
+                                android:fontFamily="sans-serif"
+                                android:justificationMode="inter_word"
+                                android:padding="6dp"
+                                android:text="Setelah membaca, kerjakan soal berikut pada lembar kerja siswa!\n1.\tTentukanlah gagasan kreatif tersebut!\n2.\tBuatlah rancangan cerita yang akan kmu buat dengan menjadikan kedua teks di atas sebagai referensi!"
+                                android:textColor="@color/colorFontBlack"
+                                android:textSize="14sp"
+                                app:layout_constraintBottom_toTopOf="@+id/linearLayout2"
+                                app:layout_constraintEnd_toEndOf="parent"
+                                app:layout_constraintHorizontal_bias="0.308"
+                                app:layout_constraintStart_toStartOf="parent" />
 
 
-
-                        <ImageView
-                            android:layout_width="match_parent"
-                            android:layout_height="50dp"
-                            android:layout_gravity="center"
-                            android:layout_marginStart="20dp"
-                            android:layout_marginEnd="20dp"
-                            android:src="@drawable/texx"
-                            app:layout_constraintBottom_toTopOf="@+id/linearLayout2"
-                            app:layout_constraintEnd_toEndOf="parent"
-                            app:layout_constraintHorizontal_bias="0.308"
-                            app:layout_constraintStart_toStartOf="parent" />
+                        </androidx.cardview.widget.CardView>
 
                         <!--     Input Satu       -->
 
@@ -130,7 +140,6 @@
                             android:foregroundGravity="left"
                             android:layout_marginStart="20dp"
                             android:layout_marginEnd="20dp"
-                            android:layout_marginBottom="10dp"
                             android:src="@drawable/empad"/>
 
                         <androidx.cardview.widget.CardView
@@ -234,7 +243,7 @@
                             android:layout_gravity="right"
                             android:layout_marginEnd="18dp"
                             android:layout_marginBottom="8dp"
-
+                            android:backgroundTint="#F75E3F"
                             android:text="Kirim">
 
                         </Button>
@@ -261,19 +270,18 @@
                         <TextView
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:layout_gravity="start"
-                            android:layout_marginEnd="12dp"
+                            android:layout_marginEnd="17dp"
                             android:text="Kegiatan terakhir pada kompetensi ini yakni menulis sebuah cerita fantasi dengan mengikuti tahap berikut!"
                             android:textColor="@android:color/black"
                             android:textSize="12sp"
-                            android:layout_marginStart="28dp"
+                            android:layout_marginStart="17dp"
                             android:textStyle="italic" />
 
 
                         <ImageView
                             android:id="@+id/sara"
                             android:layout_width="match_parent"
-                            android:layout_height="90dp"
+                            android:layout_height="110dp"
                             android:layout_marginStart="20dp"
                             android:layout_marginEnd="20dp"
                             android:layout_gravity="center"
@@ -282,7 +290,7 @@
 
                         <ImageView
                             android:layout_width="wrap_content"
-                            android:layout_height="75dp"
+                            android:layout_height="70dp"
                             android:layout_marginEnd="20dp"
                             android:layout_marginStart="20dp"
                             android:src="@drawable/empatg"/>
@@ -291,12 +299,11 @@
 
                         <ImageView
                             android:layout_width="120dp"
-                            android:layout_height="40dp"
+                            android:layout_height="35dp"
                             android:layout_gravity="left"
                             android:foregroundGravity="left"
                             android:layout_marginStart="20dp"
                             android:layout_marginEnd="20dp"
-                            android:layout_marginBottom="10dp"
                             android:src="@drawable/empad"/>
 
                         <androidx.cardview.widget.CardView
@@ -390,7 +397,6 @@
                             </LinearLayout>
 
                         </androidx.cardview.widget.CardView>
-
 
                         <Button
                             android:id="@+id/buttonKirim2"

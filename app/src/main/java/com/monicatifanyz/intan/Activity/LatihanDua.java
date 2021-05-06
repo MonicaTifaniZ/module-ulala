@@ -1,7 +1,5 @@
 package com.monicatifanyz.intan.Activity;
 
-import androidx.appcompat.app.AppCompatActivity;
-
 import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
@@ -23,7 +21,7 @@ public class LatihanDua extends Activity implements View.OnClickListener {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_latihan_dua);
+        setContentView(R.layout.activity_latihan_tiga);
 
         imageViewHome = (ImageView) findViewById(R.id.ivHome);
         imageViewPrev = (ImageView) findViewById(R.id.ivMateri);

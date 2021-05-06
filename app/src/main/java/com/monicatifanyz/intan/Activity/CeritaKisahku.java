@@ -38,7 +38,7 @@ public class CeritaKisahku extends Activity implements View.OnClickListener {
     }
 
     public void prev(View view){
-        Intent sebelum = new Intent(this, MateriActivity.class);
+        Intent sebelum = new Intent(this, KotakInfoSatuActivity.class);
         startActivity(sebelum);
     }
 

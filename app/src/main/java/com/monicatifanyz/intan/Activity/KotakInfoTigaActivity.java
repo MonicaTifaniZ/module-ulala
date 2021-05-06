@@ -1,7 +1,6 @@
 package com.monicatifanyz.intan.Activity;
 
-import androidx.appcompat.app.AppCompatActivity;
-
+import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
@@ -10,10 +9,10 @@ import android.widget.TextView;
 
 import com.monicatifanyz.intan.R;
 
-public class KotakInfoTigaActivity extends AppCompatActivity {
+public class KotakInfoTigaActivity extends Activity {
 
     TextView textView;
-    ImageView back;
+    ImageView back, ceritakusatu, ceritakudua;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -21,9 +20,9 @@ public class KotakInfoTigaActivity extends AppCompatActivity {
         setContentView(R.layout.activity_kotak_info_tiga);
 
         back = findViewById(R.id.ivPrev);
-
-
         textView = (TextView) findViewById(R.id.tvText);
+        ceritakusatu = (ImageView) findViewById(R.id.kisahku);
+        ceritakudua = (ImageView) findViewById(R.id.kisahku2);
 
         back.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -31,14 +30,31 @@ public class KotakInfoTigaActivity extends AppCompatActivity {
                 prev(back);
             }
         });
-//        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.O) {
-//            textView.setJustificationMode(JUSTIFICATION_MODE_INTER_WORD);
-//        }
+        ceritakusatu.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                ceritaKu(ceritakusatu);
+            }
+        });
+        ceritakudua.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                ceritaKu(ceritakudua);
+            }
+        });
+
+
     }
 
     public void prev(View view){
-        Intent sebelum = new Intent(this, MenuEmpat.class);
+        Intent sebelum = new Intent(this, MenuTigaActivity.class);
+        startActivity(sebelum);
+    }
+
+    public void ceritaKu(View view){
+        Intent sebelum = new Intent(this, KisahkuDua.class);
         startActivity(sebelum);
     }
 
 }
+

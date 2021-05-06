@@ -149,7 +149,7 @@ public class MenuTigaActivity extends Activity {
     }
 
     public void menuKotak(View view){
-        Intent menu = new Intent(this, KotakInfoDuaActivity.class);
+        Intent menu = new Intent(this, KotakInfoTigaActivity.class);
         startActivity(menu);
     }
     public void ceritaSatuu(View view){
